@@ -181,9 +181,19 @@ end note
 </details>
 
 
-
-
 This diagram corresponds to the drawing in the patent document:
+
+
+<!-- ![Incandescent Electric Light](https://patentimages.storage.googleapis.com/33/5d/1e/ac22bc7934e959/US514170-drawings-page-1.png) -->
+
+
+<figure>
+	<img src="https://patentimages.storage.googleapis.com/33/5d/1e/ac22bc7934e959/US514170-drawings-page-1.png" width="400" height="80%" alt="Incandescent Electric Light">
+	<figcaption>Incandescent Electric Light</figcaption>
+</figure>
+
+
+
 *   **A:** Glass globe
 *   **B:** Thin conducting wire (leading in)
 *   **C:** Stem of glass or other refractory insulator
