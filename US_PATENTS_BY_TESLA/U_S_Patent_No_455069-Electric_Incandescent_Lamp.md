@@ -121,9 +121,17 @@ mindmap
 
 ----
 
-## Lamp Construction: Figure 1 - Direct Connection 🛠️
+
+
+<figure>
+    <img src="https://patentimages.storage.googleapis.com/d4/c8/4c/413be3863f825b/US455069-drawings-page-1.png" width="400" height="80%" alt="Direct Connection">
+    <figcaption>Figure 1: Direct Connection <br/>and Figure 2: Inductive Connection</figcaption>
+</figure>
+
 
 ---
+
+## Lamp Construction: Figure 1 - Direct Connection 🛠️
 
 
 <!-- ![Figure 1](https://patentimages.storage.googleapis.com/d4/c8/4c/413be3863f825b/US455069-drawings-page-1.png) -->
@@ -132,11 +140,6 @@ mindmap
 
 
 ---
-
-<figure>
-    <img src="https://patentimages.storage.googleapis.com/d4/c8/4c/413be3863f825b/US455069-drawings-page-1.png" width="400" height="80%" alt="Direct Connection">
-    <figcaption>Figure 1: Direct Connection <br/>and Figure 2: Inductive Connection</figcaption>
-</figure>
 
 This version of the lamp involves directly connecting the internal conductors to the external power source using leading-in wires.
 
