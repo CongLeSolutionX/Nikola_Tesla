@@ -74,11 +74,11 @@ config:
   }
 }%%
 flowchart LR
-  My_Meme@{ img: "https://raw.githubusercontent.com/CongLeSolutionX/CongLeSolutionX/refs/heads/main/assets/images/My-meme-light-bulb-question-marks.png", label: "Ăn uống gì chưa ngừi đẹp?", pos: "b", w: 200, h: 150, constraint: "off" }
+  My_Meme@{ img: "https://raw.githubusercontent.com/CongLeSolutionX/CongLeSolutionX/refs/heads/main/assets/images/My-meme-question-marks-light-bulb-brain.png", label: "Ăn uống gì chưa ngừi đẹp?", pos: "b", w: 200, h: 150, constraint: "on" }
 
-  Closing_quote@{ shape: braces, label: "...searching insights in the process of formulating better questions..." }
-    
-  My_Meme ~~~ Closing_quote
+  Closing_quote@{ shape: braces, label: "...❓curiosity❓<br/> led me to <br/> 🧠 consciousness 🤯..." }
+
+  Closing_quote  ~~~ My_Meme
     
   Link_to_my_profile{{"<a href='https://github.com/CongLeSolutionX/CongLeSolutionX' target='_blank'>Click here if you care about my profile</a>"}}
 
@@ -86,8 +86,6 @@ flowchart LR
   My_Meme animatingEdge@--> Link_to_my_profile
   
   animatingEdge@{ animate: true }
-
-
 
 ```
 
