@@ -12,7 +12,7 @@ source: https://patents.google.com/patent/US455069A/en
 > 
 > This is a working draft in progress
 > 
-> ![Loading...](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWJzaG01ZzhrNzR4ZHV6MDVhazF0b2M1bXhtN2lvZWVkeXp1bDNhaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VKHcPYtU3wn96/giphy.gif)
+> ![Loading...](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdWFoajc3Z2V5Y2RveXp0dDl2cjVsaWhxZHJyZmlsYXdqZG9lZHNubyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/TKYHkAKZrN5KdQHCiW/giphy.gif)
 >
 > gif image is provided by [Giphy](https://giphy.com)
 > 
