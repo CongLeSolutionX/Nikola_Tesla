@@ -24,7 +24,7 @@ source: https://patents.google.com/patent/US455069A/en
 
 
 
-# U.S patent 455,069 - Electric Incandescent Lamp
+# U.S. Patent Number 455,069 - Electric Incandescent Lamp
 > **Disclaimer:**
 >
 > This document contains my personal notes on the topic,
