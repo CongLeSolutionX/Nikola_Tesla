@@ -26,10 +26,9 @@
 > _Nikola Tesla, Pioneer in Experiments on High Frequency Oscillations._ n.d. Wellcome Collection. https://jstor.org/stable/community.36635498. -->
 
 <!-- Option 2 -->
-<img alt="Loading…" src="./ASSETS/Nikola_Tesla.jpg"/>
-	<br/>
-	<em>Source:<br/> _Nikola Tesla, Pioneer in Experiments on High Frequency Oscillations._ n.d. Wellcome Collection. <a https://jstor.org/stable/community.36635498</a>
-</em>
+<img alt="Loading…" src="./ASSETS/Nikola_Tesla.jpg" width="500" height="800"/>
+<br/>
+<em>Source:<br/> _Nikola Tesla, Pioneer in Experiments on High Frequency Oscillations._ n.d. Wellcome Collection. <a https://jstor.org/stable/community.36635498</a></em>
 
 
 
