@@ -88,15 +88,15 @@ mindmap
     Connections_to_Companies))"Connections to Companies<br/>(via Name)"((
       Name_Inspiration_For("Name Inspiration For...")
         NKLA{{"Nikola Corporation<br/>(NKLA)"}}
-          Focus("Focus: Commercial EV/FCEV Trucks 🚚💨")
-          Notable_Figure("Notable Figure: Trevor Milton<br/>(Founder)")
-          Key_Aspects("Key Aspects: SEC Scrutiny ⚖️, Financial Challenges 📉")
-          CIK("CIK: 0001731289 [^Nikola_CIK]")
+          Focus("Focus:<br/>Commercial EV/FCEV Trucks 🚚💨")
+          Notable_Figure("Notable Figure:<br/>Trevor Milton<br/>(Founder)")
+          Key_Aspects("Key Aspects:<br/>SEC Scrutiny ⚖️, Financial Challenges 📉")
+          CIK("CIK:<br/>0001731289[^Nikola_CIK]")
         TSLA{{"Tesla, Inc. <br/>(TSLA)"}}
-          Focus("Focus: Consumer EVs, Energy, AI 🚗🤖☀️")
-          Notable_Figure("Notable Figure: Elon Musk<br/>(CEO)")
-          Key_Aspects("Key Aspects: Innovation 🚀, SEC Scrutiny (Musk) 🧑‍⚖️")
-          CIK("CIK:<br/>0001318605 [^Tesla_CIK]")
+          Focus("Focus:<br/>Consumer EVs, Energy, AI 🚗🤖☀️")
+          Notable_Figure("Notable Figure:<br/>Elon Musk<br/>(CEO)")
+          Key_Aspects("Key Aspects:<br/>Innovation 🚀, SEC Scrutiny<br/> (Musk) 🧑‍⚖️")
+          CIK("CIK:<br/>0001318605[^Tesla_CIK]")
 ```
 
 *This diagram illustrates the primary entities your document touches upon: the inventor himself and the two corporations linked by name.*
@@ -213,7 +213,7 @@ config:
   }
 }%%
 flowchart TD
-    subgraph TSLA_Profile_Aspects["Tesla, Inc. (TSLA) Profile & Key Aspects"]
+    subgraph TSLA_Profile_Aspects["Tesla, Inc. (TSLA)<br/>Profile & Key Aspects"]
     direction LR
     style TSLA_Profile_Aspects fill:#E222,stroke:#333,stroke-width:2px, color: #FFFF
         T1["Tesla, Inc. (TSLA)<br/>⚡ Electric Vehicles, Sustainable Energy, AI"]
@@ -292,14 +292,14 @@ config:
   }
 }%%
 flowchart TD
-    D_Start["📄 Document: 'Nikola Tesla'<br/>(Working Title)"] -- Focus --> D_Inventor("Nikola Tesla<br/>(The Inventor)<br>Bio & Legacy")
+    D_Start["📄 Document:<br/> 'Nikola Tesla'<br/>(Working Title)"] -- Focus --> D_Inventor("Nikola Tesla<br/>(The Inventor)<br>Bio & Legacy")
 
-    D_Inventor -- Illustrated By --> D_TeslaImage("🖼️ Portrait of Nikola Tesla<br/><br/>Source:<br/> <em>Nikola Tesla, Pioneer in Experiments on High Frequency Oscillations. n.d. Wellcome Collection. <a href='https://jstor.org/stable/community.36635498'>https://jstor.org/stable/community.36635498</a></em>")
+    D_Inventor -- illustrated By --> D_TeslaImage("🖼️ Portrait of Nikola Tesla<br/><br/>Source:<br/> <em>Nikola Tesla, Pioneer in Experiments on High Frequency Oscillations. n.d. Wellcome Collection. <a href='https://jstor.org/stable/community.36635498'>https://jstor.org/stable/community.36635498</a></em>")
 
 
-    D_Start -- Contains --> D_TODO("🚧 TODO Section")
-    D_TODO -- Lists --> D_NikolaCorpFilings("🔗 Nikola Corp. SEC Filings Exploration<br/>CIK: 0001731289")
-    D_TODO -- Lists --> D_TeslaIncFilings("🔗 Tesla, Inc. SEC Filings Exploration<br/>CIK: 0001318605")
+    D_Start -- contains --> D_TODO("🚧 TODO Section")
+    D_TODO -- lists --> D_NikolaCorpFilings("🔗 Nikola Corp. SEC Filings Exploration<br/>CIK: 0001731289")
+    D_TODO -- lists --> D_TeslaIncFilings("🔗 Tesla, Inc. SEC Filings Exploration<br/>CIK: 0001318605")
 
     D_Start -- Evident Research Focus<br/>(in comments) --> D_CommentedLinks("📚 Extensive Commented-Out Links")
     subgraph ResearchThemes["Dominant Research Themes in Comments"]
@@ -310,8 +310,8 @@ flowchart TD
     end
     D_CommentedLinks --> ResearchThemes
 
-    D_Start -- Includes --> D_AuthorsBranding("👤 Author's Branding Element<br>(CongLeSolutionX Mermaid Meme)")
-    D_Start -- Specifies --> D_Licenses("📜 Licensing Information<br>(MIT & CC BY-SA 4.0)")
+    D_Start -- includes --> D_AuthorsBranding("👤 Author's Branding Element<br>(CongLeSolutionX Mermaid Meme)")
+    D_Start -- specifies --> D_Licenses("📜 Licensing Information<br>(MIT & CC BY-SA 4.0)")
 
     subgraph DocumentObservations["Overall Document Interpretation"]
     direction TB
@@ -337,31 +337,7 @@ flowchart TD
 
 The extensive list of links you've gathered, even if commented out, provides a rich dataset for exploring the trajectories of Nikola Corporation and Tesla, Inc., particularly their interactions with regulatory bodies like the SEC and the public market. These diagrams aim to provide a structured visual starting point for the concepts embedded in your research.
 
-
-----
-
-### References
-*(Note: Specific URLs are numerous in comment sections in the draft repo; general references are provided below based on entities mentioned in the diagrams.)*
-
-[^Nikola_CIK]: Nikola Corporation. SEC CIK: 0001731289. Accessible via SEC EDGAR. (e.g., your provided link: `https://www.sec.gov/Archives/edgar/data/1731289/000104746920003604/a2241863zs-1.htm`)
-[^Tesla_CIK]: Tesla, Inc. SEC CIK: 0001318605. Accessible via SEC EDGAR. (e.g., your provided link: `https://www.sec.gov/Archives/edgar/data/1318605/000162828025003063/tsla-20241231.htm`)
-[^SEC_Nikola_File]: U.S. Securities and Exchange Commission. *In the Matter of Nikola Corporation, Respondent.* Administrative Proceeding File No. 3-20687. (As indicated in various news reports and SEC documents.)
-[^SEC_Nikola_Press_2021_267]: U.S. Securities and Exchange Commission. (2021, December 21). *Nikola Corporation to Pay $125 Million to Resolve Fraud Charges*. Press Release 2021-267. [Link to SEC.gov](https://www.sec.gov/news/press-release/2021-267)
-[^Nikola_Delist_PR]: Example: PR Newswire. (2024, March 29). *Nikola Corporation Announces Intent to Voluntarily Delist from Nasdaq – and Deregister with the SEC.* [Link to PRNewswire](https://www.prnewswire.com/news-releases/nikola-corporation-announces-intent-to-voluntarily-delist-from-nasdaq--and-deregister-with-the-sec-302409853.html) (One of the many links you provided)
-[^SEC_Musk_Case]: U.S. Securities and Exchange Commission. (2018). Litigation involving Elon Musk and Tesla, Inc. (e.g., Case No. 18-cv-8865, SDNY). Information available through SEC litigation releases and news reports. (Referenced in your links e.g., `https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26219`)
-[^Tesla_SEC_Filings]: Tesla, Inc. Investor Relations & U.S. Securities and Exchange Commission EDGAR Database. Publicly available financial filings. [Tesla IR](https://ir.tesla.com/sec-filings), [SEC EDGAR](https://www.sec.gov/edgar/browse/?CIK=1318605)
-[^Nikola_Corp_SEC_Main]: Nikola Corporation. SEC Filings. [SEC EDGAR](https://www.sec.gov/edgar/browse/?CIK=0001731289)
-
-The image source for Nikola Tesla in your document:
-*   *Nikola Tesla, Pioneer in Experiments on High Frequency Oscillations.* n.d. Wellcome Collection. [https://jstor.org/stable/community.36635498](https://jstor.org/stable/community.36635498)
-
-Giphy (for the loading GIF):
-*   [https://giphy.com](https://giphy.com)
-
-
-----
-
-
+---
 
 
 ## TODO
@@ -646,5 +622,19 @@ flowchart LR
 
 [^Nikola]: Nikola Corporation. https://www.sec.gov/Archives/edgar/data/1731289/000104746920003604/a2241863zs-1.htm
 [^Tesla]: Tesla Inc. https://www.sec.gov/Archives/edgar/data/1318605/000162828025003063/tsla-20241231.htm
+
+----
+
+### References
+*(Note: Specific URLs are numerous in comment sections in the draft repo; general references are provided below based on entities mentioned in the diagrams.)*
+
+[^Nikola_CIK]: Nikola Corporation. SEC CIK: 0001731289. Accessible via SEC EDGAR. (e.g., your provided link: `https://www.sec.gov/Archives/edgar/data/1731289/000104746920003604/a2241863zs-1.htm`)
+[^Tesla_CIK]: Tesla, Inc. SEC CIK: 0001318605. Accessible via SEC EDGAR. (e.g., your provided link: `https://www.sec.gov/Archives/edgar/data/1318605/000162828025003063/tsla-20241231.htm`)
+[^SEC_Nikola_File]: U.S. Securities and Exchange Commission. *In the Matter of Nikola Corporation, Respondent.* Administrative Proceeding File No. 3-20687. (As indicated in various news reports and SEC documents.)
+[^SEC_Nikola_Press_2021_267]: U.S. Securities and Exchange Commission. (2021, December 21). *Nikola Corporation to Pay $125 Million to Resolve Fraud Charges*. Press Release 2021-267. [Link to SEC.gov](https://www.sec.gov/news/press-release/2021-267)
+[^Nikola_Delist_PR]: Example: PR Newswire. (2024, March 29). *Nikola Corporation Announces Intent to Voluntarily Delist from Nasdaq – and Deregister with the SEC.* [Link to PRNewswire](https://www.prnewswire.com/news-releases/nikola-corporation-announces-intent-to-voluntarily-delist-from-nasdaq--and-deregister-with-the-sec-302409853.html) (One of the many links you provided)
+[^SEC_Musk_Case]: U.S. Securities and Exchange Commission. (2018). Litigation involving Elon Musk and Tesla, Inc. (e.g., Case No. 18-cv-8865, SDNY). Information available through SEC litigation releases and news reports. (Referenced in your links e.g., `https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26219`)
+[^Tesla_SEC_Filings]: Tesla, Inc. Investor Relations & U.S. Securities and Exchange Commission EDGAR Database. Publicly available financial filings. [Tesla IR](https://ir.tesla.com/sec-filings), [SEC EDGAR](https://www.sec.gov/edgar/browse/?CIK=1318605)
+[^Nikola_Corp_SEC_Main]: Nikola Corporation. SEC Filings. [SEC EDGAR](https://www.sec.gov/edgar/browse/?CIK=0001731289)
 
 ----
