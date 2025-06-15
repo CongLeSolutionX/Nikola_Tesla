@@ -318,6 +318,6 @@ flowchart LR
 >
 
 [^Nikola]: Nikola Corporation. https://www.sec.gov/Archives/edgar/data/1731289/000104746920003604/a2241863zs-1.htm
-[^Tesla]: Tesla. https://www.sec.gov/Archives/edgar/data/1318605/000162828025003063/tsla-20241231.htm
+[^Tesla]: Tesla Inc. https://www.sec.gov/Archives/edgar/data/1318605/000162828025003063/tsla-20241231.htm
 
 ----
