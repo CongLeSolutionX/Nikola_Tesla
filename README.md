@@ -68,11 +68,25 @@ https://ir.tesla.com/sec-filings?page=%2C1
 https://www.tesla.com/models/design#overview
 https://www.tesla.com/cybertruck/design#overview
 https://www.tesla.com/cybertruck
+https://www.tesla.com/en_ca/cybertruck
+https://www.tesla.com/nl_nl/models
+
 
 
 https://en.wikipedia.org/wiki/Tesla_Roadster_(second_generation)
 https://en.wikipedia.org/wiki/Elon_Musk
 
+
+
+https://www.sec.gov/edgar/browse/?CIK=1826018&owner=include
+https://www.sec.gov/edgar/browse/?CIK=0001865429
+https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26219
+https://www.sec.gov/newsroom/press-releases/2018-219
+
+
+https://www.sec.gov/Archives/edgar/data/1318605/000110465924053333/tm2326076d14_def14a.pdf
+https://www.sec.gov/edgar/browse/?CIK=0002040288
+https://www.sec.gov/Archives/edgar/data/1318605/000119312523094100/d440358dars.pdf
 
 https://www.sec.gov/Archives/edgar/data/1318605/000119312510017054/ds1.htm
 https://www.sec.gov/edgar/browse/?CIK=0001318605
@@ -96,7 +110,28 @@ https://www.sec.gov/Archives/edgar/data/1318605/000162828024017503/tsla-20240331
 https://www.sec.gov/Archives/edgar/data/1318605/000119312516596657/d185970d424b5.htm
 https://www.sec.gov/Archives/edgar/data/1318605/000119312513096241/d452995d10k.htm
 https://www.sec.gov/Archives/edgar/data/1318605/000110465924070473/tm2413800d25_defa14a.htm
+https://www.sec.gov/Archives/edgar/data/1318605/000156459022022992/tsla-pre14a_20220804.htm
+https://www.sec.gov/Archives/edgar/data/1318605/000119312518035345/d524719ddef14a.htm
+https://www.sec.gov/Archives/edgar/data/1318605/000110465924071439/tm2413800d31_8k.htm
+https://www.sec.gov/Archives/edgar/data/1318605/000162828023034847/tsla-20230930.htm
+https://www.sec.gov/Archives/edgar/data/1318605/000119312523094075/d451342ddef14a.htm
+https://www.sec.gov/Archives/edgar/data/1318605/000156459022033053/tsla-8k_20221002.htm
+https://www.sec.gov/Archives/edgar/data/1318605/000110465925042659/tm252787d2_10ka.htm
+https://www.sec.gov/Archives/edgar/data/1318605/000156459020027321/tsla-def14a_20200707.htm
+https://www.sec.gov/Archives/edgar/data/1318605/000095017024046895/tsla-ex99_1.htm
+https://www.sec.gov/Archives/edgar/data/1318605/000110465924050097/tm2326076d18_defa14a.htm
+https://www.sec.gov/Archives/edgar/data/1318605/000149473125000001/xslF345X05/edgardoc.xml
+https://www.sec.gov/Archives/edgar/data/1318605/000162828025018851/exhbit991.htm
+https://www.sec.gov/edgar/browse/?CIK=0000732712
+https://www.sec.gov/Archives/edgar/data/1318605/000110465924053372/tm2412112d4_ars.pdf
+https://www.sec.gov/Archives/edgar/data/1318605/000156459022011875/tsla-8k_20220328.htm
+https://www.sec.gov/Archives/edgar/data/1318605/000095017023050938/tsla-ex99_1.htm
+https://www.sec.gov/Archives/edgar/data/1318605/000162828024043432/tsla-20241023.htm
+https://www.sec.gov/Archives/edgar/data/1318605/000119312514069681/d668062d10k.htm
+https://www.sec.gov/Archives/edgar/data/1318605/000162828025002993/tsla-20250129.htm
 
+
+https://www.sec.gov/enforcement-litigation/distributions-for-harmed-investors/sec-v-elon-musk-case-no-18-cv-8865-sdny-sec-v-tesla-inc-case-no-18-cv-8947-sdny
 
 
 https://research.secdatabase.com/CIK/1318605/Company-Name/Tesla,-Inc.
