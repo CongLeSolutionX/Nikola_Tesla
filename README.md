@@ -145,19 +145,19 @@ flowchart TD
     style NKLA_Profile_Challenges fill:#ee22,stroke:#333,stroke-width:2px, color: #FFFF
         A["Nikola Corporation (NKLA)<br/>🏭 Commercial Electric & Fuel Cell Trucks"]
 
-        subgraph SEC_Scrutiny ["SEC Scrutiny & Legal Woes ⚖️"]
+        subgraph SEC_Scrutiny["SEC Scrutiny & Legal Woes ⚖️"]
         style SEC_Scrutiny fill:#2F22,stroke:#333,stroke-width:2px, color: #FFFF
-            B["Allegations of Fraud<br>(Misleading investors about technology)"]
-            C["Founder: Trevor Milton<br>(Indicted, convicted for fraud)"]
-            D["SEC Investigation Initiated<br>🔗 Ref: U.S. SEC, Admin. Proc. File No. 3-20687 [^SEC_Nikola_File]"]
-            E["Settlement with SEC<br>💰 Financial Penalty: $S_{\text{NKLA_SEC}} = \$125 \times 10^6$<br>🔗 Ref: U.S. SEC Press Release 2021-267 [^SEC_Nikola_Press_2021_267]"]
+            B["Allegations of Fraud<br/>(Misleading investors about technology)"]
+            C["Founder:<br/>Trevor Milton<br/>(Indicted, convicted for fraud)"]
+            D["SEC Investigation Initiated<br>🔗 Ref: U.S. SEC, Admin. Proc. File No. 3-20687[^SEC_Nikola_File]"]
+            E["Settlement with SEC<br/>💰 Financial Penalty:<br/> $S_{\text{NKLA_SEC}} = \$125 \times 10^6$<br>🔗 Ref: U.S. SEC Press Release 2021-267 [^SEC_Nikola_Press_2021_267]"]
         end
 
-        subgraph Financial_Distress ["Financial & Operational Headwinds 🌬️💸"]
+        subgraph Financial_Distress["Financial & Operational Headwinds 🌬️💸"]
         style Financial_Distress fill:#E222,stroke:#333,stroke-width:2px, color: #F22F
-            F["Stock Performance Issues (NKLAQ)<br>(Implies delisting/OTC trading)"]
+            F["Stock Performance Issues (NKLAQ)<br/>(Implies delisting/OTC trading)"]
             G["Intent to Voluntarily Delist from NASDAQ<br>🔗 Ref: PR Newswire, e.g., March 29, 2024 [^Nikola_Delist_PR]"]
-            H["Bankruptcy Concerns / Filings<br>(References to Chapter 11 in news links)"]
+            H["Bankruptcy Concerns / Filings<br/>(References to Chapter 11 in news links)"]
             I["Layoffs & Restructuring Efforts"]
         end
 
