@@ -257,7 +257,7 @@ flowchart TD
 
 ## Diagram 4: Document Meta-Analysis & Potential Structure 🤔🗺️
 
-This flowchart attempts to visualize the structure and apparent focus of your draft document, noting its current state and the relationship between its titled subject and its researched content.
+This flowchart attempts to visualize the structure and apparent focus of my draft document, noting its current state and the relationship between its titled subject and its researched content.
 
 ```mermaid
 ---
