@@ -99,7 +99,7 @@ mindmap
           CIK("CIK:<br/>0001318605[^Tesla_CIK]")
 ```
 
-*This diagram illustrates the primary entities my current reference documents touches upon: the inventor himself and the two corporations linked by name.*
+*This diagram illustrates the primary entities my current reference documents touch upon: the inventor himself and the two corporations linked by name.*
 
 ---
 
