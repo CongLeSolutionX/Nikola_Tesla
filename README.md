@@ -37,21 +37,130 @@ https://www-jstor-org.lib-proxy.fullerton.edu/stable/community.36635498?searchTe
 
 
 
-<!-- TODO -->
-
-
-<!-- 
-NIKOLA COPORATION:
-https://www.sec.gov/Archives/edgar/data/1731289/000104746920003604/a2241863zs-1.htm -->
-
 ## TODO
 [Nikola](https://www.sec.gov/Archives/edgar/data/1731289/000104746920003604/a2241863zs-1.htm)[^Nikola]
 
 
 [Tesla](https://www.sec.gov/Archives/edgar/data/1318605/000162828025003063/tsla-20241231.htm)[^Tesla]
 
+
+
+
+<!-- TODO -->
+
+
 <!-- 
-Tesla compay 
+NIKOLA Corporation
+
+
+https://www.nikolamotor.com/sec-filings
+https://www.nikolamotor.com/annual-reports
+
+
+https://www.sec.gov/edgar/browse/?CIK=0001731289
+
+https://www.sec.gov/newsroom/press-releases/2021-267
+https://www.sec.gov/enforcement-litigation/distributions-harmed-investors/matter-nikola-corporation-admin-proc-file-no-3-20687
+https://www.sec.gov/Archives/edgar/data/1731289/000173128924000253/nkla-20240930.htm
+https://www.sec.gov/Archives/edgar/data/1731289/000119312523088273/d446990dex991.htm
+https://www.sec.gov/files/litigation/admin/2023/34-96998.pdf
+
+
+https://research.secdatabase.com/CIK/1731289/Company-Name/NIKOLA-CORP
+https://www.sec.gov/Archives/edgar/data/1731289/000104746920003604/a2241863zs-1.htm 
+https://www.sec.gov/Archives/edgar/data/1731289/000173128924000100/nikolapressreleasemarch292.htm
+https://www.sec.gov/Archives/edgar/data/1731289/000173128925000011/nkla-20250219.htm
+https://www.sec.gov/files/litigation/admin/2021/33-11018.pdf
+https://www.sec.gov/Archives/edgar/data/1731289/000110465920070923/tm2021982d1_8k.htm
+https://www.sec.gov/newsroom/press-releases/2021-141
+https://www.sec.gov/files/litigation/admin/2021/33-11018.pdf
+https://www.sec.gov/newsroom/press-releases/2021-141
+https://www.sec.gov/Archives/edgar/data/1731289/000119312521331200/d185343ds1.htm
+
+
+https://www.sec.gov/Archives/edgar/data/1731289/000173128924000199/prosuppno92333-239185.htm
+
+
+https://www.nasdaqtrader.com/TraderNews.aspx?id=ECA2024-294
+
+
+https://www.nasdaq.com/market-activity#msymbol=nkla
+https://fintel.io/sfs/us/nkla
+https://fintel.io/so/us/nkla
+https://www.marketwatch.com/investing/stock/nkla/financials?countryCode=MX
+https://finance.yahoo.com/quote/NKLAQ/
+https://www.investing.com/equities/nikola-corp
+https://finance.yahoo.com/quote/NKLA.MX/
+
+
+https://www.prnewswire.com/news-releases/nikola-corporation-announces-intent-to-voluntarily-delist-from-nasdaq--and-deregister-with-the-sec-302409853.html
+
+https://www.law360.com/articles/1450654/electric-truck-co-nikola-to-pay-125m-to-end-sec-probe
+https://news.bloomberglaw.com/esg/nikola-to-pay-125-million-sec-penalty-over-milton-comments-1
+https://www.barrons.com/articles/ev-trucker-nikola-fined-125-million-by-sec-to-settle-fraud-charges-51640050752
+https://news.bloomberglaw.com/securities-law/nikola-expects-125-million-penalty-in-tentative-pact-with-sec
+
+
+
+https://www.wsj.com/finance/regulation/nikola-says-it-will-pay-125-million-to-settle-sec-investigation-11636034144?gaa_at=eafs&gaa_n=ASWzDAhAy6Wyy0kEH82g00Pa4iS3_U44fHbRqCqr4KlGYae9fnBX2kmxmP8kQnl51-o%3D&gaa_ts=684e51fa&gaa_sig=pvJPO1QXG1Aoxnl1lnApP0ZBL7jnXqglYzozZY29gdwwpXdScpvPZ1CsEk6BhrqQ5ZdyWggWs6Qf5QxtlD68zA%3D%3D
+
+https://www.forbes.com/sites/alanohnsman/2021/11/04/nikola-to-pay-125-million-fine-to-settle-trevor-miltons-alleged-sec-violations/
+
+https://www.detroitnews.com/story/business/autos/general-motors/2020/09/15/doj-reportedly-joins-sec-probing-gm-partner-nikola/5809393002/
+https://www.nytimes.com/2021/12/21/business/nikola-sec-fraud-investigation.html
+https://www.cnn.com/2020/11/10/cars/nikola-milton-subpoenas
+https://www.jurist.org/news/2021/12/nikola-reaches-125m-settlement-sec-resolves-defrauding-charges/
+https://www.securitieslawfirm.com/node/227/
+https://www.ft.com/content/9529283d-121f-41f2-a860-19f1c67f7403
+https://www.reuters.com/business/nikola-corp-agrees-pay-125-mln-settle-sec-charges-defrauding-investors-2021-12-21/
+https://www.dandodiary.com/2021/12/articles/regulatory-enforcement-2/nikola-settles-sec-proceedings-for-125-million/
+https://www.bloomberg.com/news/articles/2025-02-20/nikola-bankruptcy-strands-sec-s-80-million-claim-atop-list-of-unpaid-bills?embedded-checkout=true
+https://www.ft.com/content/fc333e50-3785-4715-bb39-908611fd3825
+https://www.reuters.com/business/autos-transportation/nikola-reserves-125-mln-fund-potential-settlement-with-sec-2021-11-04/
+https://www.corporatedefensedisputes.com/2022/01/post-spac-nikola-settles-sec-inquiry-agrees-to-pay-125-million/
+https://www.corporatedefensedisputes.com/2021/08/ex-nikola-chairman-indicted-for-securities-fraud/
+https://www.cbsnews.com/news/nikola-chapter-11-brankruptcy-news-2025/
+https://www.cnbc.com/2021/11/04/nikola-expects-125-million-sec-penalty-under-proposed-resolution.html
+https://www.freightwaves.com/news/nikola-settles-with-sec-agrees-to-pay-125m-fine-over-2-years
+https://www.wsj.com/business/nikola-to-pay-125-million-in-sec-settlement-11640095067?gaa_at=eafs&gaa_n=ASWzDAhsHRP85-KUS83mYxvNZw9FRqiGlSLsmN-jsn3bQRP-80WqxUG33bhECWKQ4fo%3D&gaa_ts=684e507a&gaa_sig=3ighlhWQEajdZJbAvInc8oudmMXFRfYVuQax3MR5UJaWx3eD0XZeiH4cFTmCgGwl4LeyQjvrVmLxeum_IEdRNA%3D%3D
+https://techcrunch.com/2021/11/04/nikola-sets-aside-125-million-to-settle-with-sec/
+https://techcrunch.com/2021/11/04/nikola-sets-aside-125-million-to-settle-with-sec/
+https://www.cnbc.com/2021/12/21/nikola-to-pay-125-million-to-settle-fraud-charges-as-sec-cracks-down-on-spac-claims.html
+https://www.bloomberg.com/news/articles/2020-09-14/sec-said-to-examine-nikola-over-short-seller-s-fraud-allegations?embedded-checkout=true
+https://www.foxbusiness.com/markets/nikola-125m-settle-sec-fraud-charges
+https://www.businessinsider.com/sec-probing-nikola-motors-over-short-seller-claims-of-fraud-2020-9
+https://www.investors.com/news/nikola-stock-key-wall-street-analyst-defends-electric-truck-maker-short-seller/
+https://www.bizjournals.com/phoenix/news/2021/12/21/nikola-agrees-to-125-million-settlement-with-sec.html
+https://techcrunch.com/2020/09/14/sec-to-investigate-short-sellers-claims-against-nikola-report-says/
+
+
+
+https://electrek.co/2024/12/12/nikola-nkla-confirms-more-layoffs-as-it-desperately-tries-to-avoid-bankruptcy/
+https://landline.media/nikola-expects-to-settle-sec-probe-for-125m-founder-to-pay-bill/
+https://www.motorauthority.com/news/1129644_nikola-probed-by-sec-doj-over-fraud-claims
+https://www.jdsupra.com/legalnews/blog-doj-and-sec-file-fraud-charges-7437448/
+https://www.complianceweek.com/regulatory-enforcement/nikola-to-pay-125m-to-settle-sec-fraud-charges/31192.article
+https://www.ttnews.com/articles/nikola-beats-estimates-details-additional-sec-inquiry
+https://www.zdnet.com/article/sec-probes-nikola-motors-over-allegations-of-investor-fraud/
+https://www.cfodive.com/news/sec-charges-nikola-founder-with-fraud/604162/
+https://www.complianceweek.com/regulatory-enforcement/nikola-sets-aside-125m-in-potential-sec-settlement/31018.article
+https://cooleypubco.com/2022/01/04/sec-125-million-civil-penalty-nikola/
+https://www.rttnews.com/3250812/nikola-agrees-to-pay-sec-125-mln-to-settle-fraud-charges.aspx
+https://www.itiger.com/news/2512102098
+https://www.thestreet.com/investing/nikola-announces-100-million-dollar-secondary-offering
+https://www.parkrecord.com/2025/02/26/nikola-corporation-which-convicted-founder-founded-files-for-bankruptcy-as-shares-fall-to-pennies-on-the-dollar/
+https://www.fastcompany.com/91281146/ev-startup-nikolas-stock-plummets-38-after-bankruptcy-filin
+
+
+-->
+
+
+
+
+
+<!-- 
+Tesla company 
+
 https://www.sec.gov/Archives/edgar/data/1318605/000162828025003063/tsla-20241231.htm 
 https://ir.tesla.com/sec-filings
 https://ir.tesla.com/_flysystem/s3/sec/000119312512081990/d279413d10k.html
