@@ -29,10 +29,11 @@
 
 <!-- Option 2 -->
 <img alt="Loading…" src="./ASSETS/Nikola_Tesla.jpg" width="500" height="800"/>
-<br/>
+
+<blockquote>
 Source:<br/> <em>Nikola Tesla, Pioneer in Experiments on High Frequency Oscillations. n.d. Wellcome Collection. <a href='https://jstor.org/stable/community.36635498'>https://jstor.org/stable/community.36635498</a></em>
 
-
+</blockquote>
 
 <!-- 
 https://www-jstor-org.lib-proxy.fullerton.edu/stable/community.36635498?searchText=&searchUri=%2Faction%2FdoBasicSearch%3FQuery%3DTesla%26so%3Drel&ab_segments=0%2Fbasic_search_gsv2%2Fcontrol&searchKey=&refreqid=fastly-default%3Ae65c603f1d51d0aef4bde413f13644e0&initiator=recommender -->
