@@ -293,7 +293,8 @@ config:
 flowchart TD
     D_Start["📄 Document: 'Nikola Tesla'<br/>(Working Title)"] -- Focus --> D_Inventor("Nikola Tesla<br/>(The Inventor)<br>Bio & Legacy")
 
-    D_Inventor -- Illustrated By --> D_TeslaImage("🖼️ Portrait of Nikola Tesla<br>Source: Wellcome Collection")
+    D_Inventor -- Illustrated By --> D_TeslaImage("🖼️ Portrait of Nikola Tesla<br/><br/>Source:<br/> <em>Nikola Tesla, Pioneer in Experiments on High Frequency Oscillations. n.d. Wellcome Collection. <a href='https://jstor.org/stable/community.36635498'>https://jstor.org/stable/community.36635498</a></em>")
+
 
     D_Start -- Contains --> D_TODO("🚧 TODO Section")
     D_TODO -- Lists --> D_NikolaCorpFilings("🔗 Nikola Corp. SEC Filings Exploration<br/>CIK: 0001731289")
