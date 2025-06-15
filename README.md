@@ -44,9 +44,14 @@ https://www-jstor-org.lib-proxy.fullerton.edu/stable/community.36635498?searchTe
 NIKOLA COPORATION:
 https://www.sec.gov/Archives/edgar/data/1731289/000104746920003604/a2241863zs-1.htm -->
 
+## TODO
+[Nikola Corporation](https://www.sec.gov/Archives/edgar/data/1731289/000104746920003604/a2241863zs-1.htm)[^Nikola]
+
 
 <!-- 
 Tesla compay 
 https://www.sec.gov/Archives/edgar/data/1318605/000162828025003063/tsla-20241231.htm -->
 
 ----
+
+[^Nikola]: Nikola Corporation. https://www.sec.gov/Archives/edgar/data/1731289/000104746920003604/a2241863zs-1.htm
