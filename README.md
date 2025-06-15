@@ -59,13 +59,22 @@ https://ir.tesla.com/_flysystem/s3/sec/000162828025002993/tsla-20250129-gen.pdf
 https://ir.tesla.com/_flysystem/s3/sec/000110465924071439/tm2413800d31_8k-gen.pdf
 https://ir.tesla.com/_flysystem/s3/sec/000095017023001409/tsla-20221231-gen.pdf
 https://ir.tesla.com/_flysystem/s3/sec/000095017021002253/tsla-20210930-gen.pdf
+https://ir.tesla.com/_flysystem/s3/sec/000156459021004599/tsla-10k_20201231-gen.pdf
+https://ir.tesla.com/sec-filings?field_nir_sec_form_group_target_id%5B%5D=491&field_nir_sec_date_filed_value=&items_per_page=10
+https://ir.tesla.com/sec-filings?page=%2C11
+https://ir.tesla.com/sec-filings?page=%2C1
 
+
+https://www.tesla.com/models/design#overview
+https://www.tesla.com/cybertruck/design#overview
+https://www.tesla.com/cybertruck
 
 
 https://en.wikipedia.org/wiki/Tesla_Roadster_(second_generation)
 https://en.wikipedia.org/wiki/Elon_Musk
 
 
+https://www.sec.gov/Archives/edgar/data/1318605/000119312510017054/ds1.htm
 https://www.sec.gov/edgar/browse/?CIK=0001318605
 https://www.sec.gov/Archives/edgar/data/1318605/000156459021004599/tsla-10k_20201231.htm
 https://www.sec.gov/Archives/edgar/data/1318605/000095017022000796/tsla-20211231.htm
@@ -79,6 +88,15 @@ https://www.sec.gov/Archives/edgar/data/1318605/000156459021022604/tsla-10ka_202
 https://www.sec.gov/Archives/edgar/data/1318605/000156459017003118/tsla-10k_20161231.htm
 https://www.sec.gov/Archives/edgar/data/1318605/000156459019003165/tsla-10k_20181231.htm
 https://www.sec.gov/Archives/edgar/data/1318605/000162828024002390/tsla-20231231.htm
+https://www.sec.gov/Archives/edgar/data/1318605/000095017023033872/tsla-20230630.htm
+https://www.sec.gov/Archives/edgar/data/1318605/000156459016013195/tsla-10k_20151231.htm
+https://www.sec.gov/Archives/edgar/data/1318605/000110465924048040/tm2326076d13_pre14a.htm
+https://www.sec.gov/Archives/edgar/data/1318605/000156459020004475/tsla-10k_20191231.htm
+https://www.sec.gov/Archives/edgar/data/1318605/000162828024017503/tsla-20240331.htm
+https://www.sec.gov/Archives/edgar/data/1318605/000119312516596657/d185970d424b5.htm
+https://www.sec.gov/Archives/edgar/data/1318605/000119312513096241/d452995d10k.htm
+https://www.sec.gov/Archives/edgar/data/1318605/000110465924070473/tm2413800d25_defa14a.htm
+
 
 
 https://research.secdatabase.com/CIK/1318605/Company-Name/Tesla,-Inc.
@@ -87,9 +105,13 @@ https://fintel.io/sfs/us/tsla
 https://finance.yahoo.com/sec-filing/TSLA/0001628280-24-002390_1318605/
 https://www.marketwatch.com/investing/stock/tsla/financials/secfilings
 https://www.nasdaq.com/market-activity/stocks/tsla/historical
-
-
+https://seekingalpha.com/symbol/TSLA/sec-filings
+https://www.npr.org/2018/09/29/653014733/elon-musk-settles-with-sec-agrees-to-step-down-as-tesla-chairman
+https://www.marketwatch.com/investing/stock/tsla
+https://www.forbes.com/sites/jamesfarrell/2024/05/08/tesla-self-driving-doj-investigation-is-looking-at-securities-and-wire-fraud-report-says/
 https://www.warren.senate.gov/newsroom/press-releases/warren-renews-call-for-sec-investigation-of-tesla-board-of-directors-and-chief-executive-elon-musk-raises-fresh-conflict-of-interest-concerns
+https://www.foxbusiness.com/markets/teslas-elon-musk-sec-settle-fraud-charges
+
 
 -->
 
