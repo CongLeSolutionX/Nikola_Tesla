@@ -108,10 +108,10 @@ flowchart TD
     O --> P(("Dramatic Revelation:<br/>AC Motor Solution!<br/>(Feb 1882) 💡"))
     P --> Q["Moves to Paris:<br/>Works for Continental Edison<br/>(April 1882) 🇫🇷"]
 
-    style A fill:#f9f,stroke:#333,stroke-width:2px
-    style P fill:#lightgreen,stroke:#333,stroke-width:2px
-    style J fill:#lightblue,stroke:#333,stroke-width:2px
-    style N fill:#ffcc99,stroke:#333,stroke-width:2px
+    style A fill:#f9f2,stroke:#333,stroke-width:2px
+    style P fill:#fc21,stroke:#333,stroke-width:2px
+    style J fill:#2BAB,stroke:#333,stroke-width:2px
+    style N fill:#c29,stroke:#333,stroke-width:2px
 ```
 
 ----
@@ -156,6 +156,7 @@ config:
 }%%
 flowchart LR
     subgraph Tesla_Mind["Tesla's Mind"]
+    style Tesla_Mind fill:#f9f2,stroke:#333,stroke-width:2px, color:#FFF
         A["Initial Problem/Question <br/> (e.g., AC Motor)"] -- pondering --> B{"Detailed Visualization <br/> (Mental Model Construction)"}
         B -- mental examination --> C{"Refinement<br/> (Imagine it running, check for wear)"}
         C -- if flawed --> B
@@ -164,10 +165,10 @@ flowchart LR
     D -- opportunity/<br/>resources --> E["Physical Construction<br/>(Building the Model)"]
     E --> F["Testing & Validation <br/> (Model Works!) ✅"]
 
-    style A fill:#cceeff
-    style B fill:#ccffcc
-    style D fill:#ffffcc
-    style F fill:#e6fffa
+    style A fill:#cef2
+    style B fill:#cfc2
+    style D fill:#fc22
+    style F fill:#2fa2
 ```
 
 While in Paris, working for Continental Edison, Tesla's brilliance shone, but his AC ideas found little support. A disastrous DC installation in Strasburg, Germany, ironically gave him the time to build a working model of his AC dynamo.
@@ -216,22 +217,23 @@ config:
   }
 }%%
 flowchart TD
-    subgraph Inventors_and_Entrepreneurs["Inventors & Entrepreneurs"]
-        Tesla["Nikola Tesla <br> AC Visionary"]
-        Edison["Thomas Edison <br> DC Proponent, Incandescent Light"]
-        Westinghouse["George Westinghouse <br> Entrepreneur, Backer of Tesla's AC"]
-        JP_Morgan["J. Pierpont Morgan <br/> Financier, Later Tesla Benefactor"]
-    end
+  subgraph Inventors_and_Entrepreneurs["Inventors & Entrepreneurs"]
+  style Inventors_and_Entrepreneurs fill:#f9f2,stroke:#333,stroke-width:2px, color:#FFF
+      Tesla["Nikola Tesla <br> AC Visionary"]
+      Edison["Thomas Edison <br> DC Proponent, Incandescent Light"]
+      Westinghouse["George Westinghouse <br> Entrepreneur, Backer of Tesla's AC"]
+      JP_Morgan["J. Pierpont Morgan <br/> Financier, Later Tesla Benefactor"]
+  end
 
-    Tesla -- works for/<br/>conflicts with --> Edison
-    Tesla -- partnership/<br/>support --> Westinghouse
-    Edison -- business rivalry --> Westinghouse
-    Tesla -- later funding --> JP_Morgan
+  Tesla -- works for/<br/>conflicts with --> Edison
+  Tesla -- partnership/<br/>support --> Westinghouse
+  Edison -- business rivalry --> Westinghouse
+  Tesla -- later funding --> JP_Morgan
 
-    style Tesla fill:#add8e6
-    style Edison fill:#ffcccb
-    style Westinghouse fill:#90ee90
-    style JP_Morgan fill:#fafad2
+  style Tesla fill:#ade2
+  style Edison fill:#fcb2
+  style Westinghouse fill:#9e92
+  style JP_Morgan fill:#fad2
 ```
 
 The introduction of AC power sparked the "War of Currents" primarily between Edison's DC systems and Tesla/Westinghouse's AC systems.
@@ -270,22 +272,25 @@ config:
 }%%
 flowchart LR
     subgraph War_of_Currents["War of Currents:<br/> AC vs. DC"]
+    style War_of_Currents fill:#f9f2,stroke:#333,stroke-width:2px, color:#FFF
     direction LR
+
         subgraph AC["Alternating Current<br/>(AC)"]
-             championedByAC["Championed by:<br/> Nikola Tesla, George Westinghouse"]
-            advantagesAC["Advantages: <br> - Efficient long-distance transmission <br> (Transformers can step up/down voltage) <br> - Simpler, more robust motors (no commutators)"]
-            initialConcernsAC["Initial Concerns: <br> - Perceived as more dangerous due to high voltages"]
+        style AC fill:#8EB2,stroke:#333,stroke-width:1px, color:#F2F
+             championedByAC["Championed by:<br/><br/> Nikola Tesla, George Westinghouse"]
+            advantagesAC["Advantages:<br/><br> - Efficient long-distance transmission <br> (Transformers can step up/down voltage) <br> - Simpler, more robust motors (no commutators)"]
+            initialConcernsAC["Initial Concerns:<br/><br> - Perceived as more dangerous due to high voltages"]
         end
+
         subgraph DC["Direct Current<br/>(DC)"]
-            championedByDC["Championed by:<br/> Thomas Edison"]
-            advantagesDC["Advantages: <br/> - Established technology, batteries used DC <br> - Perceived as safer (lower voltage for local use)"]
-            disadvantagesDC["Disadvantages: <br> - Inefficient for long-distance transmission <br> (Significant power loss) <br> - Motors required commutators (sparking, wear)"]
+        style DC fill:#FD72,stroke:#333,stroke-width:1px, color:#FF1
+            championedByDC["Championed by:<br/><br/> Thomas Edison"]
+            advantagesDC["Advantages:<br/><br/> - Established technology, batteries used DC <br> - Perceived as safer (lower voltage for local use)"]
+            disadvantagesDC["Disadvantages:<br/><br> - Inefficient for long-distance transmission <br> (Significant power loss) <br> - Motors required commutators (sparking, wear)"]
         end
     end
     AC -- "VS" --- DC
 
-    style AC fill:#87CEEB,color:#000
-    style DC fill:#FFD700,color:#000
 ```
 
 Tesla's demonstration at the **1893 Columbian Exhibition in Chicago**, where Westinghouse used Tesla's AC technology to illuminate the fair, was a major victory for AC. Tesla dramatically passed one million volts through his body to disprove claims that AC was inherently too dangerous. 😮
@@ -403,7 +408,7 @@ config:
       'primaryTextColor': '#F8B229',
       'lineColor': '#F8B229',
       'primaryBorderColor': '#27AE60',
-      'secondaryColor': '#E2F1',
+      'secondaryColor': '#0221',
       'secondaryTextColor': '#6C3483',
       'secondaryBorderColor': '#A569BD',
       'fontSize': '20px'
@@ -412,26 +417,27 @@ config:
 }%%
 flowchart TD
     subgraph Tesla_Coil["TeslaCoil <br/>Tesla Coil Operation"]
-        A["Power Source (AC/DC)"] --> B("Capacitor C")
-        B -- Charges --> SG{"Spark Gap"}
-        SG -- Breakdown Voltage Reached --> Spark1["Sparks! ✨"]
-        Spark1 --> OSC1["Primary Oscillatory Circuit Formed (L1-C-SG)"]
-        OSC1 -- High-Frequency Pulsations --> PCOIL["Primary Coil L1 (Few Turns)"]
+    style Tesla_Coil fill:#8EB2,stroke:#333,stroke-width:1px, color:#F2F
+        A["Power Source<br/>(AC/DC)"] --> B("Capacitor C")
+        B -- charges --> SG{"Spark Gap"}
+        SG -- breakdown voltage reached --> Spark1["Sparks! ✨"]
+        Spark1 --> OSC1["Primary Oscillatory Circuit Formed<br/>(L1-C-SG)"]
+        OSC1 -- high-frequency pulsations --> PCOIL["Primary Coil L1<br/>(Few Turns)"]
         PCOIL -- "Electromagnetic Induction <br> (Mutual Inductance M)" --> SCOIL["Secondary Coil L2 (Many Turns)"]
-        SCOIL -- "Resonance (when $f_1 \approx f_2$)" --> HVOUT["High Voltage, High Frequency Output <br> (Millions of Volts!)"]
+        SCOIL -- "Resonance<br/>(when $f_1 \approx f_2$)" --> HVOUT["High Voltage, High Frequency Output <br/> (Millions of Volts!)"]
         HVOUT --> Terminal["Terminal Emits Spectacular Sparks ⚡⚡"]
     end
 
-    style Tesla_Coil fill:#e0f7fa,stroke:#00796b,stroke-width:2px;
-    style A fill:#ffcdd2, stroke:#c62828;
-    style B fill:#fff9c4, stroke:#f57f17;
-    style SG fill:#c8e6c9, stroke:#2e7d32;
-    style Spark1 fill:#bbdefb, stroke:#0d47a1;
-    style OSC1 fill:#d1c4e9, stroke:#311b92;
-    style PCOIL fill:#f8bbd0, stroke:#880e4f;
-    style SCOIL fill:#ffe0b2, stroke:#e65100;
-    style HVOUT fill:#b2dfdb, stroke:#004d40;
-    style Terminal fill:#ffecb3,stroke:#ff8f00
+    %% style Tesla_Coil fill:#e0f7fa,stroke:#00796b,stroke-width:2px;
+    style A fill:#fdf2, stroke:#c62828;
+    style B fill:#f9c4, stroke:#f57f17;
+    style SG fill:#c6c9, stroke:#2e7d32;
+    style Spark1 fill:#F8B229, stroke:#0d47a1, color: #000
+    style OSC1 fill:#d1c9, stroke:#311b92;
+    style PCOIL fill:#fbd2, stroke:#880e4f;
+    style SCOIL fill:#feb2, stroke:#e65100;
+    style HVOUT fill:#bff2, stroke:#004d40;
+    style Terminal fill:#fcb3,stroke:#ff8f00
 
 ```
 
@@ -471,42 +477,42 @@ Tesla's experiments grew grander and more ambitious:
  * copyright: Copyright (c) 2025 Cong Le. All Rights Reserved.
  */
 digraph Wardenclyffe_Concept {
-    rankdir="LR";
-    node [shape=box, style=rounded];
-    bgcolor="transparent";
+    rankdir="LR"
+    node [shape=box, style=rounded]
+    bgcolor="transparent"
 
     subgraph cluster_Vision {
-        label="Tesla's Vision for Wardenclyffe";
-        style="filled";
-        color="lightgrey";
-        node [style=filled,color=lightblue];
+        label="Tesla's Vision for Wardenclyffe"
+        style="filled"
+        color="lightgrey"
+        node [style=filled,color=lightblue]
 
-        Tower [label="Wardenclyffe Tower\n(154 ft)", shape=cylinder, color=skyblue, style=filled];
-        GlobalPower [label="Wireless Global Power Transmission 🌎⚡"];
-        GlobalComms [label="Worldwide Wireless Communication 📡"];
-        AdvancingHumanity [label="Advancing Humanity (Tesla's Goal)"];
+        Tower [label="Wardenclyffe Tower\n(154 ft)", shape=cylinder, color=skyblue, style=filled]
+        GlobalPower [label="Wireless Global Power Transmission 🌎⚡"]
+        GlobalComms [label="Worldwide Wireless Communication 📡"]
+        AdvancingHumanity [label="Advancing Humanity\n(Tesla's Goal)"]
     }
 
     subgraph cluster_Support {
-        label="Support & Construction";
-        style="filled";
-        color="lightyellow";
-        node [style=filled,color=lightgoldenrodyellow];
+        label="Support & Construction"
+        style="filled"
+        color="lightyellow"
+        node [style=filled,color=lightgoldenrodyellow]
 
-        JPMorgan [label="J.P. Morgan\n(Financial Backer 💰)"];
-        StanfordWhite [label="Stanford White\n(Architect)"];
-        Construction [label="Construction in Long Island (1900)"];
+        JPMorgan [label="J.P. Morgan\n(Financial Backer 💰)"]
+        StanfordWhite [label="Stanford White\n(Architect)"]
+        Construction [label="Construction in Long Island\n(1900)"]
     }
 
     subgraph cluster_Outcome {
-        label="Challenges & Outcome";
-        style="filled";
-        color="lightpink";
-        node [style=filled,color=mistyrose];
+        label="Challenges & Outcome"
+        style="filled"
+        color="lightpink"
+        node [style=filled,color=mistyrose]
 
-        Delays [label="Project Delays ⏳"];
-        UnpaidBills [label="Financial Difficulties 💸"];
-        ProjectCeased [label="Project Ceased (1905) 🛑"];
+        Delays [label="Project Delays ⏳"]
+        UnpaidBills [label="Financial Difficulties 💸"]
+        ProjectCeased [label="Project Ceased\n(1905) 🛑"]
     }
 
     JPMorgan -> Construction;
@@ -574,7 +580,7 @@ mindmap
       ::icon(fa fa-bolt)
       ("Alternating Current Generators")
       ("AC Motors <br><em>polyphase induction</em>")
-      ("Transformers <br><em>step-up/step-down voltage</em>")
+      ("Transformers <br>**step-up/step-down voltage**")
       ("Long-distance Power Transmission")
     Tesla_Coil))"**Tesla Coil**"((
       ::icon(fa fa-broadcast-tower)
@@ -584,9 +590,9 @@ mindmap
       ("Spark-gap transmitter principles")
     Wireless_Technology))"**Wireless Technology**"((
       ::icon(fa fa-wifi)
-      ("Remote Control <br/><em>robotic boat, 1898</em>")
-      ("Foundations for Radio <br><em>tuning, signal reception theories</em>")
-      ("World Wireless System Vision <br><em>Wardenclyffe</em>")
+      ("Remote Control <br/>**robotic boat, 1898**")
+      ("Foundations for Radio <br/>**tuning, signal reception theories**")
+      ("World Wireless System Vision <br>**Wardenclyffe**")
     Lighting_Innovations))"**Lighting Innovations**"((
       ::icon(fa fa-lightbulb)
       ("Improvements to Arc Lighting")
@@ -594,9 +600,9 @@ mindmap
       ("High-Frequency Lighting")
     Mechanical_Engineering))"**Mechanical Engineering**"((
       ::icon(fa fa-cogs)
-      ("Tesla Turbine <br><em>bladeless turbine</em>")
+      ("Tesla Turbine <br>**bladeless turbine**")
       ("Reciprocating Engines for High Frequency")
-      ("Mechanical Oscillators <br><em>vibration experiments</em>")
+      ("Mechanical Oscillators <br>**vibration experiments**")
 ```
 
 ---
@@ -611,11 +617,13 @@ Nikola Tesla was a visionary scientist and inventor whose work revolutionized th
 
 *   The primary source for this information is the article on Nikola Tesla from **The Franklin Institute**. ([fi.edu](https://fi.edu/)). Specific links to assets and reports are also provided in the original document, such as the [Cresson Award information](https://www.fi.edu/en/awards/laureates/nikola-tesla) and the [PDF report on Tesla's Researches in High Frequency Phenomena](https://fi.edu/sites/default/files/2016-04/NikolaTesla_CaseFileReports_TheFranklinInstitute.pdf).
 
-The images linked at the end of the document (letters, motor, letterhead) provide valuable historical context and are artifacts held by The Franklin Institute.
+   
+<!-- 
+The images linked at the end of the document (letters, motor, letterhead) provide valuable historical context and are artifacts held by The Franklin Institute. -->
 
 ----
 
-It's truly inspiring to reflect on Tesla's life – a journey from a small village to becoming a figure whose inventions continue to power our world. ✨
+> It's truly inspiring to reflect on Tesla's life – a journey from a small village to becoming a figure whose inventions continue to power our world. ✨
 
 ----
 
