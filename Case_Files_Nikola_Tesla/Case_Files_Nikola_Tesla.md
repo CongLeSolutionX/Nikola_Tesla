@@ -99,7 +99,7 @@ flowchart TD
     F --> G["Cholera Epidemic:<br/>Delays studies but solidifies engineering path"]
     G --> H["Studies Electrical Engineering at Polytechnic Institute, Graz, Austria<br/>(1875)"]
     H --> I("Observes Gramme Dynamo")
-    I --> J{"Intrigued by AC vs. DC:<br/>Why convert AC to DC? 🤔"}
+    I --> J{"Intrigued by <br/>AC vs. DC:<br/>Why convert AC to DC? 🤔"}
     J --> K["Fails to solve AC motor problem initially"]
     K --> L["Studies at University of Prague"]
     L --> M["Works at Hungarian Telegraph Office, Budapest<br/>(1881)"]
@@ -110,7 +110,7 @@ flowchart TD
 
     style A fill:#f9f2,stroke:#333,stroke-width:2px
     style P fill:#fc21,stroke:#333,stroke-width:2px
-    style J fill:#2BAB,stroke:#333,stroke-width:2px
+    style J fill:#2AB2,stroke:#333,stroke-width:2px, color: #F25
     style N fill:#c29,stroke:#333,stroke-width:2px
 ```
 
@@ -617,7 +617,7 @@ Nikola Tesla was a visionary scientist and inventor whose work revolutionized th
 
 *   The primary source for this information is the article on Nikola Tesla from **The Franklin Institute**. ([fi.edu](https://fi.edu/)). Specific links to assets and reports are also provided in the original document, such as the [Cresson Award information](https://www.fi.edu/en/awards/laureates/nikola-tesla) and the [PDF report on Tesla's Researches in High Frequency Phenomena](https://fi.edu/sites/default/files/2016-04/NikolaTesla_CaseFileReports_TheFranklinInstitute.pdf).
 
-   
+
 <!-- 
 The images linked at the end of the document (letters, motor, letterhead) provide valuable historical context and are artifacts held by The Franklin Institute. -->
 
