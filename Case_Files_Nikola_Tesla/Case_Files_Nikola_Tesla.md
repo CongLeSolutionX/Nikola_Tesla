@@ -39,8 +39,16 @@ source: https://fi.edu/en/science-and-education/collection/case-files/nikola-tes
 
 ---
 
-![Nikola-Tesla-with-his-equipment](https://fi.edu/sites/default/files/2020-01/Nikola-Tesla-with-his-equipment.jpg)
-
+<div align="center">
+  <br/>
+  <img alt="Nikola-Tesla-with-his-equipment" src="https://fi.edu/sites/default/files/2020-01/Nikola-Tesla-with-his-equipment.jpg"/>
+  <br/>
+  <blockquote>
+	<i>Nikola Tesla with his equipment.</i>
+	<br/>
+	<i>This image is provided by <a href="https://fi.edu">The Franklin Institute</a></i>
+  </blockquote>
+</div>
 
 ---
 
