@@ -45,6 +45,36 @@ source: https://www.energy.gov/articles/war-currents-ac-vs-dc-power
 ## MAIN CONTENT - A Diagrammatic Guide 
 
 
+```mermaid
+---
+title: "❓...AC....❓"
+author: "Cong Le"
+version: "1.0"
+license(s): "MIT, CC BY-SA 4.0"
+copyright: "Copyright (c) 2025 Cong Le. All Rights Reserved."
+config:
+  theme: base
+---
+%%%%%%%% Mermaid version v11.4.1-b.14
+%%{
+  init: {
+    'flowchart': { 'htmlLabels': false },
+    'fontFamily': 'Bradley Hand',
+    'themeVariables': {
+      'primaryColor': '#fc82',
+      'primaryTextColor': '#F8B229',
+      'primaryBorderColor': '#27AE60',
+      'secondaryColor': '#5229',
+      'secondaryTextColor': '#6C3483',
+      'lineColor': '#F8B229',
+      'fontSize': '20px'
+    }
+  }
+}%%
+flowchart LR
+    My_Meme@{ img: "https://raw.githubusercontent.com/CongLeSolutionX/Nikola_Tesla/refs/heads/main/ASSETS/Nikola_Tesla.jpg", label: "..🙉..👀..📖..", pos: "b", w: 700, h: 500, constraint: "on" }
+```
+
 
 ----
 
