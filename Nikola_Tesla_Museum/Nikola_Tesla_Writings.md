@@ -12,7 +12,7 @@ source: https://tesla-museum.org/en/nikola-tesla-2/writings/
 > 
 > This is a working draft in progress
 > 
-> ![Loading...](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXVjejV3dnVjc2o5MXd3eXBvcDR1cHlzbHQ1Z2R6YjY0ZHpmdjJ6OCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/hL9q5k9dk9l0wGd4e0/giphy.gif)
+> ![Loading...](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmh5eGs5cnpwOWJxcmRpaGNwcTI1b2F5ZTk4eWs3ajk4OGkzZWF5NyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l49JRQC9RNa5j35a8/giphy.gif)
 >
 > gif image is provided by [Giphy](https://giphy.com)
 > 
@@ -447,6 +447,6 @@ flowchart LR
 
 **Citation:**
 The list of Nikola Tesla's writings is sourced from the Nikola Tesla Museum.
-*   Nikola Tesla Museum. "Tesla's Writings." *Nikola Tesla Museum*, [https://tesla-museum.org/en/nikola-tesla-2/writings/](https://tesla-museum.org/en/nikola-tesla-2/writings/) (Accessed on the date of this generation).
+*   Nikola Tesla Museum. "Tesla's Writings." *Nikola Tesla Museum*, [https://tesla-museum.org/en/nikola-tesla-2/writings/](https://tesla-museum.org/en/nikola-tesla-2/writings/). June, 09, 2025.
 
 ----
