@@ -59,7 +59,7 @@ config:
 %%{
   init: {
     'flowchart': { 'htmlLabels': false },
-    'fontFamily': 'Bradley Hand',
+    'fontFamily': 'American TypeWriter',
     'themeVariables': {
       'primaryColor': '#fc82',
       'primaryTextColor': '#F8B229',
@@ -67,19 +67,46 @@ config:
       'secondaryColor': '#5229',
       'secondaryTextColor': '#6C3483',
       'lineColor': '#F8B229',
-      'fontSize': '20px'
+      'fontSize': '25px'
     }
   }
 }%%
-flowchart LR
-    Nikola_Tesla@{ img: "https://raw.githubusercontent.com/CongLeSolutionX/Nikola_Tesla/refs/heads/main/ASSETS/Nikola_Tesla.jpg", label: "⚡...Nikola Tesla...🧲", pos: "b", w: 700, h: 500, constraint: "on" }
+flowchart TD
+  Nikola_Tesla@{ img: "https://raw.githubusercontent.com/CongLeSolutionX/Nikola_Tesla/refs/heads/main/ASSETS/Nikola_Tesla.jpg", label: "⚡...Nikola Tesla...🧲", pos: "b", w: 700, h: 500, constraint: "on" }
 
-    Thomas_Alva_Edison@{ img: "https://raw.githubusercontent.com/CongLeSolutionX/Nikola_Tesla/refs/heads/main/ASSETS/Thomas_Alva_Edison.jpg", label: "💡...Thomas Alva Edison...🪫", pos: "b", w: 700, h: 500, constraint: "on" }
-
-
-  Nikola_Tesla animatingEdge@ -------- Thomas_Alva_Edison
+  Thomas_Alva_Edison@{ img: "https://raw.githubusercontent.com/CongLeSolutionX/Nikola_Tesla/refs/heads/main/ASSETS/Thomas_Alva_Edison.jpg", label: "💡...Thomas Alva Edison...🪫", pos: "b", w: 700, h: 500, constraint: "on" }
   
-  animatingEdge@{ animate: true }
+  VS["🔔🗽🔔"]
+
+  TeslaImage("🖼️ Portrait of Nikola Tesla<br/><br/>Source:<br/> <em>Nikola Tesla, Pioneer in Experiments on High Frequency Oscillations. n.d. Wellcome Collection. <a href='https://jstor.org/stable/community.36635498'>https://jstor.org/stable/community.36635498</a></em>")
+
+  EdisonImage("🖼️ Portrait of Thomas Alva Edison<br/><br/>Source:<br/> <em>Thomas Alva Edison. Photograph. n.d. 1 photograph. Wellcome Collection. <a href='https://jstor.org/stable/community.24859005'>https://jstor.org/stable/community.24859005</a></em>")
+
+  Nikola_Tesla animatingEdge1@ ----VS
+  Thomas_Alva_Edison animatingEdge2@ ----VS
+  animatingEdge1@{ animate: true }
+  animatingEdge2@{ animate: true }
+
+  TeslaImage --> Nikola_Tesla
+
+  EdisonImage --> Thomas_Alva_Edison
+
+  %% subgraph The_Fight["The fight between the AD and DC Power"]
+  %% direction LR
+  %%   Nikola_Tesla animatingEdge1@ ----VS
+  %%   Thomas_Alva_Edison animatingEdge2@ ----VS
+
+  %%   animatingEdge1@{ animate: true }
+  %%   animatingEdge2@{ animate: true }
+
+     
+    
+  %%   TeslaImage --> Nikola_Tesla
+
+  %%   Thomas_Alva_Edison --> EdisonImage
+
+  %% end
+
 
 ```
 
