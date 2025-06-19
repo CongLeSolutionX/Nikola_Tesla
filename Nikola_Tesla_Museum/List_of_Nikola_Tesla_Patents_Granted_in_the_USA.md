@@ -279,6 +279,8 @@ gantt
 
 This Gantt chart shows the period between the filing date (start of the bar) and the grant date (end of the bar) for selected patents, giving a visual sense of the time taken for these early inventions to be officially patented.
 
+The timeline for the full list of Nikola Tesla's USA Patents is in [this doc](./Nikola_Tesla_USA_Patents_Timeline.md).
+
 ---
 
 ## 5. Patent Amendment Process (Conceptual for USA Patents) ⚙️
