@@ -281,6 +281,11 @@ This Gantt chart shows the period between the filing date (start of the bar) and
 
 The timeline for the full list of Nikola Tesla's USA Patents is in [this doc](./Nikola_Tesla_USA_Patents_Timeline%20.md).
 
+
+
+The timeline for the full list of Nikola Tesla's non-USA Patents is in [this doc](./Nikola_Tesla_Non_USA_Patents_Timeline%20.md).
+
+
 ---
 
 ## 5. Patent Amendment Process (Conceptual for USA Patents) ⚙️
