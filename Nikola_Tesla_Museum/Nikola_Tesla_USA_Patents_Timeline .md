@@ -7,7 +7,6 @@ copyright: Copyright (c) 2025 Cong Le. All Rights Reserved.
 source: https://tesla-museum.org/wp-content/uploads/2023/05/lista_patenata_eng.pdf
 ---
 
-
 > ⚠️🏗️🚧🦺🧱🪵🪨🪚🛠️👷
 > 
 > This is a working draft in progress
