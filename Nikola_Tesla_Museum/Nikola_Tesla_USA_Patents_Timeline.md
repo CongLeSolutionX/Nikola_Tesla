@@ -61,10 +61,10 @@ config:
 	'fontFamily': 'Bradley Hand',
     'gantt': {
       'titleTopMargin': 25,
-      'barHeight': 25,
-      'barGap': 30,
+      'barHeight': 10,
+      'barGap': 10,
       'topPadding': 65,
-      'rightPadding': 50,
+      'rightPadding': 0,
       'leftPadding': 200,
       'gridLineStartPadding': 25,
       'sectionFontSize': 15,
