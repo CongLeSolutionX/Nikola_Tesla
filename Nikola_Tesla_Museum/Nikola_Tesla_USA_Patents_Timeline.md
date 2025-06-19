@@ -61,15 +61,17 @@ config:
 	'fontFamily': 'Bradley Hand',
     'gantt': {
       'titleTopMargin': 25,
-      'barHeight': 10,
+      'barHeight': 15,
       'barGap': 10,
       'topPadding': 65,
-      'rightPadding': 0,
+      'rightPadding': 10,
       'leftPadding': 200,
       'gridLineStartPadding': 25,
       'sectionFontSize': 15,
       'numberSectionStyles': 4,
-      'axisFormat': '%Y'
+      'axisFormat': '%Y',
+      'topAxis': true,
+      'weekday': 'sunday'
     },
     'themeVariables': {
       'primaryColor': '#C004',
@@ -82,7 +84,6 @@ config:
 gantt
     dateFormat  YYYY-MM-DD
     title Nikola Tesla's USA Patents Timeline 📜🇺🇸
-    axisFormat %Y
 
     section Patents Granted in the 1880s
     Electric-Arc Lamp (US335,786)                                    :active, p1, 1885-03-30, 1886-02-09
