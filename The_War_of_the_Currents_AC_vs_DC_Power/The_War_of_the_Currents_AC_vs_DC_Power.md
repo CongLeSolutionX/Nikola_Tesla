@@ -82,14 +82,14 @@ flowchart TD
 
   EdisonImage("🖼️ Portrait of Thomas Alva Edison<br/><br/>Source:<br/> <em>Thomas Alva Edison. Photograph. n.d. 1 photograph. Wellcome Collection. <a href='https://jstor.org/stable/community.24859005'>https://jstor.org/stable/community.24859005</a></em>")
 
-  Nikola_Tesla animatingEdge1@ ----VS
-  Thomas_Alva_Edison animatingEdge2@ ----VS
+  Nikola_Tesla animatingEdge1@ ===VS
+  Thomas_Alva_Edison animatingEdge2@ ===VS
   animatingEdge1@{ animate: true }
   animatingEdge2@{ animate: true }
 
-  TeslaImage --> Nikola_Tesla
+  TeslaImage <===> Nikola_Tesla
 
-  EdisonImage --> Thomas_Alva_Edison
+  EdisonImage <===> Thomas_Alva_Edison
 
   %% subgraph The_Fight["The fight between the AD and DC Power"]
   %% direction LR
