@@ -320,45 +320,67 @@ While the provided list doesn't detail the mathematical content of each article,
 ### 1. Alternating Current (AC) ⚡
 Tesla championed AC power. Key characteristics include:
 *   **Voltage and Current as Sinusoids:**
-	$$ V(t) = V_p \sin(\omega t + \phi_V) $$
-	$$ I(t) = I_p \sin(\omega t + \phi_I) $$
-	Where $V_p, I_p$ are peak voltage/current, $\omega = 2\pi f$ is angular frequency ($f$ is frequency), and $\phi$ is the phase angle.
+
+$$V(t) = V_p \sin(\omega t + \phi_V)$$
+
+$$I(t) = I_p \sin(\omega t + \phi_I)$$
+
+Where $V_p, I_p$ are peak voltage/current, $\omega = 2\pi f$ is angular frequency ($f$ is frequency), and $\phi$ is the phase angle.
+
 *   **Impedance (Z):** The total opposition to current flow in an AC circuit. For a series RLC circuit:
-	$$ Z = \sqrt{R^2 + (X_L - X_C)^2} $$
-	Where $X_L = \omega L$ is inductive reactance and $X_C = \frac{1}{\omega C}$ is capacitive reactance.
+
+$$Z = \sqrt{R^2 + (X_L - X_C)^2}$$
+
+Where $X_L = \omega L$ is inductive reactance and $X_C = \frac{1}{\omega C}$ is capacitive reactance.
+
 *   **Polyphase Systems:** Tesla's induction motor and power distribution systems relied heavily on polyphase currents (typically three-phase), which provide smoother power delivery and rotating magnetic fields. For a balanced three-phase system, the phases are $120^\circ$ apart:
-	$$ V_A(t) = V_p \sin(\omega t) $$
-	$$ V_B(t) = V_p \sin(\omega t - \frac{2\pi}{3}) $$
-	$$ V_C(t) = V_p \sin(\omega t - \frac{4\pi}{3}) $$
+
+$$V_A(t) = V_p \sin(\omega t)$$
+
+$$V_B(t) = V_p \sin(\omega t - \frac{2\pi}{3})$$
+
+$$V_C(t) = V_p \sin(\omega t - \frac{4\pi}{3})$$
 
 ### 2. High-Frequency Phenomena & Resonance (e.g., Tesla Coil) 🌀
 Tesla's experiments with high-frequency, high-voltage currents were groundbreaking. The Tesla coil is a resonant transformer.
 *   **Resonant Frequency:** For an LC circuit (the basis of oscillators and resonant transformers):
-	$$ f_0 = \frac{1}{2\pi\sqrt{LC}} $$
-	Adjusting L (inductance) and C (capacitance) "tunes" the circuit. Tesla coils often involve coupled resonant circuits.
+
+$$f_0 = \frac{1}{2\pi\sqrt{LC}}$$
+
+Adjusting L (inductance) and C (capacitance) "tunes" the circuit. Tesla coils often involve coupled resonant circuits.
+
 *   **Energy in an Oscillator:** Energy oscillates between the inductor's magnetic field ($U_L = \frac{1}{2}LI^2$) and the capacitor's electric field ($U_C = \frac{1}{2}CV^2$).
 
 ### 3. Wireless Transmission of Energy & Signals 📡
 Tesla dreamed of transmitting power wirelessly on a global scale. This involves electromagnetic waves.
 *   **Electromagnetic Waves:** Described by Maxwell's Equations. A simplified wave equation for the electric field $E$:
-	$$ \nabla^2 E - \frac{1}{c^2} \frac{\partial^2 E}{\partial t^2} = 0 $$
-	Where $c$ is the speed of light.
+
+$$\nabla^2 E - \frac{1}{c^2} \frac{\partial^2 E}{\partial t^2} = 0$$
+
+Where $c$ is the speed of light.
+
 *   **Poynting Vector (S):** Represents the directional energy flux density (power per unit area) of an electromagnetic field:
-	$$ \mathbf{S} = \frac{1}{\mu_0} (\mathbf{E} \times \mathbf{B}) $$
-	Tesla envisioned exciting the Earth's resonant cavity.
+
+$$\mathbf{S} = \frac{1}{\mu_0} (\mathbf{E} \times \mathbf{B})$$
+
+Tesla envisioned exciting the Earth's resonant cavity.
 
 ### 4. Roentgen Rays (X-Rays) 🦴
 Tesla quickly replicated Roentgen's experiments and conducted his own extensive research.
 *   **Photon Energy:** X-rays are high-energy photons. Their energy is related to frequency ($f$) and wavelength ($\lambda$):
-	$$ E = hf = \frac{hc}{\lambda} $$
-	Where $h$ is Planck's constant.
+
+$$E = hf = \frac{hc}{\lambda}$$
+
+Where $h$ is Planck's constant.
 *   **Generation:** Typically by accelerating electrons to high kinetic energy ($KE = qV$) and then rapidly decelerating them (e.g., by collision with a metal target).
 
 ### 5. Cosmic Energy 🌌
 Tesla spoke of harnessing "cosmic rays" or energy from the environment.
 *   While his concepts were not fully aligned with modern physics of cosmic rays (high-energy particles from space), the idea of tapping ambient energy sources remains a compelling, though challenging, scientific pursuit. The most famous equation related to energy and matter, though developed later by Einstein, is:
-	$$ E = mc^2 $$
-	This equation itself wasn't part of Tesla's direct work, but represents the immense energy potential within matter, a concept fitting his grand visions. Tesla's ideas were more about tapping directly into perceived ambient fields or radiation.
+
+$$E = mc^2$$
+
+This equation itself wasn't part of Tesla's direct work, but represents the immense energy potential within matter, a concept fitting his grand visions. Tesla's ideas were more about tapping directly into perceived ambient fields or radiation.
 
 ---
 
