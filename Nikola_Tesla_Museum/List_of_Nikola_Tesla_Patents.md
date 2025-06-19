@@ -286,6 +286,9 @@ The timeline for the full list of Nikola Tesla's USA Patents is in [this doc](./
 The timeline for the full list of Nikola Tesla's non-USA Patents is in [this doc](./Nikola_Tesla_Non_USA_Patents_Timeline%20.md).
 
 
+The timeline for the full list of Nikola Tesla's Comprehensive Patents(both US and non-US) is in [this doc](../Nikola_Tesla_Museum/Nikola_Tesla_Comprehensive_Patents_both_US_and_nonUS_Timeline.md).
+
+
 ---
 
 ## 5. Patent Amendment Process (Conceptual for USA Patents) ⚙️
