@@ -24,7 +24,7 @@ source: https://www.energy.gov/articles/war-currents-ac-vs-dc-power
 
 
 
-# CHANGE_ME
+# The War of the Currents: AC vs DC Power
 <details open>
 <summary>Click to show/hide the full disclaimer.</summary>
    
@@ -44,6 +44,44 @@ source: https://www.energy.gov/articles/war-currents-ac-vs-dc-power
 
 ## MAIN CONTENT - A Diagrammatic Guide 
 
+
+```mermaid
+---
+title: "🔋🥊💡...The War of the Currents: AC vs DC Power...🔋🥊💡"
+author: "Cong Le"
+version: "1.0"
+license(s): "MIT, CC BY-SA 4.0"
+copyright: "Copyright (c) 2025 Cong Le. All Rights Reserved."
+config:
+  theme: base
+---
+%%%%%%%% Mermaid version v11.4.1-b.14
+%%{
+  init: {
+    'flowchart': { 'htmlLabels': false },
+    'fontFamily': 'Bradley Hand',
+    'themeVariables': {
+      'primaryColor': '#fc82',
+      'primaryTextColor': '#F8B229',
+      'primaryBorderColor': '#27AE60',
+      'secondaryColor': '#5229',
+      'secondaryTextColor': '#6C3483',
+      'lineColor': '#F8B229',
+      'fontSize': '20px'
+    }
+  }
+}%%
+flowchart LR
+    Nikola_Tesla@{ img: "https://raw.githubusercontent.com/CongLeSolutionX/Nikola_Tesla/refs/heads/main/ASSETS/Nikola_Tesla.jpg", label: "⚡...Nikola Tesla...🧲", pos: "b", w: 700, h: 500, constraint: "on" }
+
+    Thomas_Alva_Edison@{ img: "https://raw.githubusercontent.com/CongLeSolutionX/Nikola_Tesla/refs/heads/main/ASSETS/Thomas_Alva_Edison.jpg", label: "💡...Thomas Alva Edison...🪫", pos: "b", w: 700, h: 500, constraint: "on" }
+
+
+  Nikola_Tesla animatingEdge@ -------- Thomas_Alva_Edison
+  
+  animatingEdge@{ animate: true }
+
+```
 
 
 ----
@@ -81,9 +119,9 @@ flowchart LR
 
   Closing_quote@{ shape: braces, label: "☠️👻☠️<br/>Given the disastrous results<br/> of past missteps<br/>👣🐾👣,<br/>why would we<br/> knowingly<br/> start down<br/> a similar destructive path <br/>💀🙅🏼‍♂️💀,<br/> even in varied contexts?<br/>🧟‍♂️👨🏼‍🔬👨🏼‍💻🧛🏼‍♂️🧑‍🏫👨🏼‍🎓🪫💡🧠🦿"}
 
-   Closing_quote ~~~ My_Meme
+  Closing_quote ~~~ My_Meme
 
-    My_Meme animatingEdge@--> Link_to_my_profile
+  My_Meme animatingEdge@--> Link_to_my_profile
   
   animatingEdge@{ animate: true }
 
