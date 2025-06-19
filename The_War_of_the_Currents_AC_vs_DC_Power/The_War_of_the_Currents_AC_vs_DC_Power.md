@@ -71,22 +71,41 @@ config:
     }
   }
 }%%
-flowchart LR
+flowchart TD
   Nikola_Tesla@{ img: "https://raw.githubusercontent.com/CongLeSolutionX/Nikola_Tesla/refs/heads/main/ASSETS/Nikola_Tesla.jpg", label: "⚡...Nikola Tesla...🧲", pos: "b", w: 700, h: 500, constraint: "on" }
 
   Thomas_Alva_Edison@{ img: "https://raw.githubusercontent.com/CongLeSolutionX/Nikola_Tesla/refs/heads/main/ASSETS/Thomas_Alva_Edison.jpg", label: "💡...Thomas Alva Edison...🪫", pos: "b", w: 700, h: 500, constraint: "on" }
   
   VS["🔔🗽🔔"]
 
-  subgraph The_Fight["The fight between the AD and DC Power"]
-  direction TB
-    Nikola_Tesla animatingEdge1@ ----VS
-    Thomas_Alva_Edison animatingEdge2@ ----VS
+  TeslaImage("🖼️ Portrait of Nikola Tesla<br/><br/>Source:<br/> <em>Nikola Tesla, Pioneer in Experiments on High Frequency Oscillations. n.d. Wellcome Collection. <a href='https://jstor.org/stable/community.36635498'>https://jstor.org/stable/community.36635498</a></em>")
 
-    animatingEdge1@{ animate: true }
-    animatingEdge2@{ animate: true }
+  EdisonImage("🖼️ Portrait of Thomas Alva Edison<br/><br/>Source:<br/> <em>Thomas Alva Edison. Photograph. n.d. 1 photograph. Wellcome Collection. <a href='https://jstor.org/stable/community.24859005'>https://jstor.org/stable/community.24859005</a></em>")
 
-  end
+  Nikola_Tesla animatingEdge1@ ----VS
+  Thomas_Alva_Edison animatingEdge2@ ----VS
+  animatingEdge1@{ animate: true }
+  animatingEdge2@{ animate: true }
+
+  TeslaImage --> Nikola_Tesla
+
+  EdisonImage --> Thomas_Alva_Edison
+
+  %% subgraph The_Fight["The fight between the AD and DC Power"]
+  %% direction LR
+  %%   Nikola_Tesla animatingEdge1@ ----VS
+  %%   Thomas_Alva_Edison animatingEdge2@ ----VS
+
+  %%   animatingEdge1@{ animate: true }
+  %%   animatingEdge2@{ animate: true }
+
+     
+    
+  %%   TeslaImage --> Nikola_Tesla
+
+  %%   Thomas_Alva_Edison --> EdisonImage
+
+  %% end
 
 
 ```
