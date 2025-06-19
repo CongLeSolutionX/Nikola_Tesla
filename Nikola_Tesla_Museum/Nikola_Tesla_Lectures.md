@@ -12,7 +12,7 @@ source: https://tesla-museum.org/en/nikola-tesla-2/lectures/
 > 
 > This is a working draft in progress
 > 
-> ![Loading...](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXVjejV3dnVjc2o5MXd3eXBvcDR1cHlzbHQ1Z2R6YjY0ZHpmdjJ6OCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/hL9q5k9dk9l0wGd4e0/giphy.gif)
+> ![Loading...](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdHNlbWJkejRkNjJsOWw5NW9za3VkeGdmeXQxcGdxdDFvOTVld2plNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bYLqbPPBAgXO13EPkt/giphy.gif)
 >
 > gif image is provided by [Giphy](https://giphy.com)
 > 
@@ -167,6 +167,7 @@ config:
 }%%
 flowchart TD
     subgraph North_America["North America 🇺🇸"]
+    style North_America fill:#D2F8,stroke:#333,stroke-width:1px, color: #FFFF
         N1["New York<br/>(1888, L1)"] --> N2["New York<br/>(1891, L2)"]
         N2 --> P1["Philadelphia<br/>(1893, L4)"]
         P1 --> S1["St. Louis<br/>(1893, L4)"]
@@ -179,22 +180,23 @@ flowchart TD
     end
 
     subgraph Europe["Europe 🇪🇺"]
+    style Europe fill:#2F33,stroke:#333,stroke-width:1px, color: #FFFF
         LNY["New York<br/>(Starting Point for some European Tours)"] -.-> LON["London<br/>(1892, L3) ✨"]
         LON --> PAR["Paris<br/>(1892, L3) ✨"]
     end
 
-    style N1 fill:#D6EAF8,stroke:#333,stroke-width:2px
-    style N2 fill:#D6EAF8,stroke:#333,stroke-width:2px
-    style N3 fill:#D6EAF8,stroke:#333,stroke-width:2px
-    style N4 fill:#D6EAF8,stroke:#333,stroke-width:2px
-    style N5 fill:#D6EAF8,stroke:#333,stroke-width:2px
-    style P1 fill:#D5F5E3,stroke:#333,stroke-width:2px
-    style S1 fill:#D5F5E3,stroke:#333,stroke-width:2px
-    style C1 fill:#FCF3CF,stroke:#333,stroke-width:2px
-    style C2 fill:#FCF3CF,stroke:#333,stroke-width:2px
-    style B1 fill:#EBDEF0,stroke:#333,stroke-width:2px
-    style LON fill:#FDEDEC,stroke:#333,stroke-width:2px
-    style PAR fill:#FDEDEC,stroke:#333,stroke-width:2px
+    style N1 fill:#EAF8,stroke:#333,stroke-width:2px
+    style N2 fill:#EAF8,stroke:#333,stroke-width:2px
+    style N3 fill:#EAF8,stroke:#333,stroke-width:2px
+    style N4 fill:#EAF8,stroke:#333,stroke-width:2px
+    style N5 fill:#EAF8,stroke:#333,stroke-width:2px
+    style P1 fill:#F5E3,stroke:#333,stroke-width:2px
+    style S1 fill:#F5E3,stroke:#333,stroke-width:2px
+    style C1 fill:#F3CF,stroke:#333,stroke-width:2px
+    style C2 fill:#FCF2,stroke:#333,stroke-width:2px
+    style B1 fill:#DEF0,stroke:#333,stroke-width:2px
+    style LON fill:#EEC2,stroke:#333,stroke-width:2px
+    style PAR fill:#EDC2,stroke:#333,stroke-width:2px
 ```
 
 ----
