@@ -76,7 +76,7 @@ flowchart TD
 
   Thomas_Alva_Edison@{ img: "https://raw.githubusercontent.com/CongLeSolutionX/Nikola_Tesla/refs/heads/main/ASSETS/Thomas_Alva_Edison.jpg", label: "💡...Thomas Alva Edison...🪫", pos: "b", w: 700, h: 500, constraint: "on" }
   
-  VS["🔔🗽🔔"]
+  VS["🔔🗽🔔🗽🔔"]
 
   TeslaImage("🖼️ Portrait of Nikola Tesla<br/><br/>Source:<br/> <em>Nikola Tesla, Pioneer in Experiments on High Frequency Oscillations. n.d. Wellcome Collection. <a href='https://jstor.org/stable/community.36635498'>https://jstor.org/stable/community.36635498</a></em>")
 
