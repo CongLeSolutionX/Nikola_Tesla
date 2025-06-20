@@ -196,6 +196,7 @@ config:
 }%%
 flowchart TD
     subgraph MultiPhase_Generator["Multi-Phase Generator"]
+    style MultiPhase_Generator fill:#2FF2,stroke:#333,stroke-width:1px, color: #FFFF
         G_Coil1["Generator Coil 1<br/>$I_1(t)$"]
         G_Coil2["Generator Coil 2<br/>$I_2(t)$"]
         PhaseDiff(["Phase Difference $\phi$"])
@@ -206,6 +207,7 @@ flowchart TD
     PhaseDiff --> Connections["Electrical Connections 🔌"]
 
     subgraph Polyphase_Motor["Polyphase Motor"]
+    style Polyphase_Motor fill:#F2F2,stroke:#333,stroke-width:1px, color: #FFFF
         M_Coil_Set1["Motor Stator Coils - Set 1"]
         M_Coil_Set2["Motor Stator Coils - Set 2"]
         Rotor["Rotor<br/>(Armature)"]
@@ -214,7 +216,7 @@ flowchart TD
         Connections --> M_Coil_Set2
         M_Coil_Set1 ==> RotatingField
         M_Coil_Set2 ==> RotatingField
-        Rotating_Field -- Induces torque --> Rotor
+        Rotating_Field -- induces torque --> Rotor
     end
 
     style Rotating_Field fill:#22BB,stroke:#333,stroke-width:2px
@@ -224,22 +226,28 @@ flowchart TD
 
 For a two-phase system, the currents in the generator coils, and consequently in the motor's field coils, can be represented as:
 Current in phase 1:
+
 $$
  I_1(t) = I_{max} \cos(\omega t) 
 $$
+
 Current in phase 2 (shifted by $90^\circ$ or $\pi/2$ radians):
+
 $$
  I_2(t) = I_{max} \cos(\omega t - \pi/2) = I_{max} \sin(\omega t) 
 $$
+
 Where:
 -   $I_{max}$ is the maximum current.
 -   $\omega$ is the angular frequency ($2\pi f$, where $f$ is the frequency).
 -   $t$ is time.
 
 These currents produce magnetic field components in the motor, say $B_x(t) \propto I_1(t)$ and $B_y(t) \propto I_2(t)$. The resultant magnetic field vector $\vec{B}(t)$ can be visualized as:
+
 $$
  \vec{B}(t) = K \cdot [I_{max} \cos(\omega t) \hat{i} + I_{max} \sin(\omega t) \hat{j}] 
 $$
+
 This vector has a constant magnitude and rotates with angular velocity $\omega$, effectively "shifting the poles."
 
 *Citation: U.S. Patent No. 381,968 (N. Tesla, May 1, 1888), page 5, lines 33-43; page 6, lines 5-101.*
@@ -282,6 +290,7 @@ config:
 }%%
 flowchart LR
     subgraph Generator_Phases_and_Motor_Pole_Shift["Generator Phases and Motor Pole Shift"]
+    style Generator_Phases_and_Motor_Pole_Shift fill:#F2F2,stroke:#333,stroke-width:1px, color: #FFFF
     direction LR
         P0["<b>Generator at 0°</b><br>Coil B: Max Current<br/>Coil B': Null Current"] --> M0["Motor Field:<br/>Poles at 0° (Vertical)"]
         P45["<b>Generator at 45°</b><br>Coil B: Decreasing<br>Coil B': Increasing"] --> M45["Motor Field:<br/>Poles Shifted to 45°"]
@@ -345,6 +354,7 @@ config:
 }%%
 flowchart TD
     subgraph Generator_G["Generator G"]
+    style Generator_G fill:#F2F2,stroke:#333,stroke-width:1px, color: #FFFF
     direction LR
         GenCore[Armature Core A] -- Wound with --> GenCoilB["Coil B<br/>(Phase 1)"]
         GenCore -- wound with --> GenCoilBprime["Coil B'<br/>(Phase 2)"]
@@ -353,6 +363,7 @@ flowchart TD
     end
 
     subgraph Motor_M["Motor M"]
+    style Motor_M fill:#FF22,stroke:#333,stroke-width:1px, color: #FFFF
     direction LR
         MotorRing[Stator Ring R] -- wound with --> MotorCoilC["Coils C C<br/>(Phase 1)"]
         MotorRing -- wound with --> MotorCoilCprime["Coils C'C'<br/>(Phase 2)"]
@@ -410,14 +421,14 @@ config:
   }
 }%%
 flowchart TD
-    Stator[Stator Coils C, C'] -- Energized by AC --> ShiftingMagField["Shifting Magnetic Field 🔄"];
-    ShiftingMagField -- Induces Currents --> ArmatureClosedCoils["Armature with Closed Coils E, E'"];
-    ArmatureClosedCoils -- Creates Armature Poles --> Interaction["Magnetic Interaction (Stator & Armature Poles)"];
-    Interaction -- Generates --> Torque["Torque & Rotation 🚀"];
-    Title2["Induction Motor Principle (Patent 382,279)"]
+    Stator[Stator Coils C, C'] -- energized by AC --> ShiftingMagField["Shifting Magnetic Field 🔄"]
+    ShiftingMagField -- induces currents --> ArmatureClosedCoils["Armature with Closed Coils E, E'"]
+    ArmatureClosedCoils -- creates Armature Poles --> Interaction["Magnetic Interaction<br/>(Stator & Armature Poles)"]
+    Interaction -- generates --> Torque["Torque & Rotation 🚀"];
+    Title2["Induction Motor Principle<br/>(Patent 382,279)"]
 
-    style ShiftingMagField fill:#CDEBFF,stroke:#333
-    style ArmatureClosedCoils fill:#FFE5CC,stroke:#333
+    style ShiftingMagField fill:#CBF2,stroke:#333
+    style ArmatureClosedCoils fill:#F5C2,stroke:#333
 ```
 
 *Citation: U.S. Patent No. 382,279 (N. Tesla, May 1, 1888), page 21, lines 50-103.*
@@ -466,11 +477,12 @@ flowchart TD
     Generator["Alternating Current Generator"] --> MainCircuit["Main Transmission Circuit <br/>(High Potential)"]
     MainCircuit --> Converter_Unit["<b>Tesla Converter <br/>(Transformer)</b>"]
     subgraph Converter_Unit["Converter Unit"]
+    style Converter_Unit fill:#FF22,stroke:#333,stroke-width:1px, color: #FFFF
         PrimaryCoils["Primary Coils<br/>(e.g., B B, B'B')<br/>Connected to Main Circuit"]
         Core["Magnetic Core A <br/>(e.g., Annular)"]
         SecondaryCoils["Secondary Coils<br/>(e.g., C C, C'C')<br/>Induced Currents"]
-        PrimaryCoils -- Magnetize --> Core
-        Core -- Induces --> SecondaryCoils
+        PrimaryCoils -- magnetize --> Core
+        Core -- induces --> SecondaryCoils
     end
     SecondaryCoils --> WorkingCircuit["Working Circuit <br/>(e.g., Lower Potential, Higher Quantity)<br/>Lamps D, Motors, etc. 💡"]
     Note["Converter primary coils arranged for progressive pole shifting in the core."]
@@ -518,31 +530,32 @@ config:
   }
 }%%
 flowchart TD
-    subgraph TwoPhase_Generator["Two-Phase Generator"]
-        GenCoil_B["Coil B<br/>(Ends: f, g)"]
-        GenCoil_Bprime["Coil B'<br/>(Ends: b, d)"]
-        ContactRing_c["Ring c<br/>(to b)"]
-        ContactRing_e["Ring e<br/>(to d)"]
-        ContactRing_a["Ring a<br/>(COMMON to f, g)"]
-    end
+  subgraph TwoPhase_Generator["Two-Phase Generator"]
+  style TwoPhase_Generator fill:#FF22,stroke:#333,stroke-width:1px, color: #FFFF
+      GenCoil_B["Coil B<br/>(Ends: f, g)"]
+      GenCoil_Bprime["Coil B'<br/>(Ends: b, d)"]
+      ContactRing_c["Ring c<br/>(to b)"]
+      ContactRing_e["Ring e<br/>(to d)"]
+      ContactRing_a["Ring a<br/>(COMMON to f, g)"]
+  end
     
-    subgraph Motor["Motor"]
-        MotorCoil_I["Coil Set I<br/>(Terminals: k, D')"]
-        MotorCoil_J["Coil Set J<br/>(Terminals: E', D')"]
-    end
+  subgraph Motor["Motor"]
+  style Motor fill:#F222,stroke:#333,stroke-width:1px, color: #FFFF
+      MotorCoil_I["Coil Set I<br/>(Terminals: k, D')"]
+      MotorCoil_J["Coil Set J<br/>(Terminals: E', D')"]
+  end
     
-    ContactRing_c -- LineWireF --> MotorCoil_I
-    ContactRing_e -- LineWireE --> MotorCoil_J
+  ContactRing_c -- LineWireF --> MotorCoil_I
+  ContactRing_e -- LineWireE --> MotorCoil_J
     
-    %%% D' is common point
-    CommonReturnD["Line Wire D<br/>(Common Return)"]
-    ContactRing_a -- CommonReturnD --> MotorCoil_I
+  %%% D' is common point
+  CommonReturnD["Line Wire D<br/>(Common Return)"]
+  ContactRing_a -- CommonReturnD --> MotorCoil_I
 
 	%%% D' is common point
-    ContactRing_a -- CommonReturnD --> MotorCoil_J
+  ContactRing_a -- CommonReturnD --> MotorCoil_J
     
-    
-    Title4["Three-Wire Two-Phase System<br/>(Patent 390,413)"]
+  Title4["Three-Wire Two-Phase System<br/>(Patent 390,413)"]
 ```
 
 *Citation: U.S. Patent No. 390,413 (N. Tesla, Oct. 2, 1888), page 45, lines 61-86.*
@@ -589,30 +602,35 @@ config:
   }
 }%%
 flowchart TD
-    Start["Start AC Supply"] --> SwitchPos1["Switch Position 1: Torque Mode"];
-    subgraph TorqueMode ["Torque Mode (Starting)"]
-        Circuit_B[Motor Circuit B] --> With_Inductor_J["+ Inductive Coil J"];
-        Circuit_C[Motor Circuit C] --> With_Resistor_I["+ Resistance I"];
-        AC_Line[AC Line L, L'] --> Circuit_B;
-        AC_Line --> Circuit_C;
-        With_Inductor_J & With_Resistor_I --> PhaseDifference["Phase Difference Created"];
-        PhaseDifference --> RotatingFieldStart["Rotating Field Starts Motor 🌀"];
+    Start["Start AC Supply"] --> SwitchPos1["Switch Position 1:<br/>Torque Mode"]
+    subgraph TorqueMode ["Torque Mode<br/>(Starting)"]
+    style TorqueMode fill:#F222,stroke:#333,stroke-width:1px, color: #FFFF
+        Circuit_B[Motor Circuit B] --> With_Inductor_J["+ Inductive Coil J"]
+        Circuit_C[Motor Circuit C] --> With_Resistor_I["+ Resistance I"]
+        AC_Line[AC Line L, L'] --> Circuit_B
+        AC_Line --> Circuit_C
+        With_Inductor_J & With_Resistor_I --> PhaseDifference["Phase Difference Created"]
+        PhaseDifference --> RotatingFieldStart["Rotating Field Starts Motor 🌀"]
     end
-    RotatingFieldStart --> AttainSpeed{"Motor Reaches Near<br>Synchronous Speed?"};
-    AttainSpeed -- Yes --> SwitchPos2["Switch Position 2: Synchronous Mode"];
-    AttainSpeed -- No --> RotatingFieldStart;
-    subgraph SynchronousMode ["Synchronous Mode (Running)"]
-        Circuit_B_Sync[Motor Circuit B]
-        Circuit_C_Sync[Motor Circuit C]
-        AC_Line_Sync[AC Line L, L'] --> Circuit_B_Sync;
-        AC_Line_Sync --> Circuit_C_Sync;
-        Circuit_B_Sync & Circuit_C_Sync --> SynchronousOperation["Motor Runs Synchronously 🏃‍♂️"];
-    end
-    SwitchPos2 --> SynchronousOperation;
-    Title5["Synchronous Motor Starting Method (Patent 401,520)"]
 
-    style TorqueMode fill:#E6E6FA, stroke:#333
-    style SynchronousMode fill:#D4F8E0, stroke:#333
+    RotatingFieldStart --> AttainSpeed{"Motor Reaches Near<br>Synchronous Speed?"}
+    AttainSpeed -- Yes --> SwitchPos2["Switch Position 2:<br/>Synchronous Mode"]
+    AttainSpeed -- No --> RotatingFieldStart
+
+    subgraph SynchronousMode ["Synchronous Mode<br/>(Running)"]
+    style SynchronousMode fill:#F2B2,stroke:#333,stroke-width:1px, color: #FFFF
+      Circuit_B_Sync["Motor Circuit B"]
+      Circuit_C_Sync["Motor Circuit C"]
+      AC_Line_Sync["AC Line L, L'"] --> Circuit_B_Sync
+      AC_Line_Sync --> Circuit_C_Sync
+      Circuit_B_Sync & Circuit_C_Sync --> SynchronousOperation["Motor Runs Synchronously 🏃‍♂️"]
+    end
+
+    SwitchPos2 --> SynchronousOperation;
+    Title5["Synchronous Motor Starting Method<br/>(Patent 401,520)"]
+
+    %% style TorqueMode fill:#E6E6FA, stroke:#333
+    %% style SynchronousMode fill:#D4F8E0, stroke:#333
 ```
 
 *Citation: U.S. Patent No. 401,520 (N. Tesla, Apr. 16, 1889), page 61, lines 61-82; page 62, lines 37-59.*
@@ -658,21 +676,24 @@ config:
   }
 }%%
 flowchart LR
-    subgraph Regulator_Device
-        PrimaryCoils_C["Primary Coils C (Fixed)"] -- OnCores_B --> MagField1["Magnetic Field from Primary"];
-        SecondaryCoil_F["Secondary Coil F (Movable)"] -- OnCore_E --> InducedCurrent["Induced Current in Secondary"];
-        Handle_Q["Handle Q"] -- Adjusts --> SecondaryCoil_F_Position["Angular Position of Coil F"];
-        SecondaryCoil_F_Position -- AffectsCoupling --> MagField1;
-        MagField1 -- InducesIn --> SecondaryCoil_F;
+    subgraph Regulator_Device["Regulator Device"]
+    style Regulator_Device fill:#F2B2,stroke:#333,stroke-width:1px, color: #FFFF
+        PrimaryCoils_C["Primary Coils C<br/>(Fixed)"] -- OnCores_B --> MagField1["Magnetic Field from Primary"]
+        SecondaryCoil_F["Secondary Coil F<br/>(Movable)"] -- OnCore_E --> InducedCurrent["Induced Current in Secondary"]
+        Handle_Q["Handle Q"] -- Adjusts --> SecondaryCoil_F_Position["Angular Position of Coil F"]
+        SecondaryCoil_F_Position -- AffectsCoupling --> MagField1
+        MagField1 -- InducesIn --> SecondaryCoil_F
     end
-    subgraph Motor_Circuit
-        AC_Generator_H["AC Generator H"] --> MainCircuit["Main Motor Circuit (e.g., Armature K)"];
-        MainCircuit --> PrimaryCoils_C;
-        InducedCurrent --> MotorField_L["Motor Field Coils L (Variable Excitation)"];
-        MotorField_L & MainCircuit -- InteractIn --> Motor_J["Motor J"];
-        Motor_J --> SpeedTorque["Variable Speed/Torque Output"];
+
+    subgraph Motor_Circuit["Motor Circuit"]
+    style Motor_Circuit fill:#FB22,stroke:#333,stroke-width:1px, color: #FFFF
+        AC_Generator_H["AC Generator H"] --> MainCircuit["Main Motor Circuit<br/>(e.g., Armature K)"]
+        MainCircuit --> PrimaryCoils_C
+        InducedCurrent --> MotorField_L["Motor Field Coils L<br/>(Variable Excitation)"]
+        MotorField_L & MainCircuit -- InteractIn --> Motor_J["Motor J"]
+        Motor_J --> SpeedTorque["Variable Speed/Torque Output"]
     end
-    Title6["Motor Speed Regulation Concept (Patent 390,820)"]
+    Title6["Motor Speed Regulation Concept<br/>(Patent 390,820)"]
 ```
 
 *Citation: U.S. Patent No. 390,820 (N. Tesla, Oct. 9, 1888), page 57, lines 26-53; page 58, lines 20-47.*
@@ -717,12 +738,12 @@ config:
   }
 }%%
 flowchart TD
-    FieldMagnets["Motor Field Magnets A<br>Coils B, C (energized by phased AC)"] --> InductiveAction["Inductive Action on Armature"];
-    InductiveAction --> ArmatureCoils_E["Armature D with Coils E"];
-    ArmatureCoils_E -- Terminals ConnectedTo --> Condenser_F["Condenser F"];
-    Condenser_F -- CounteractsSelfInduction --> ArmatureCoils_E;
-    ArmatureCoils_E -- ImprovedCurrentFlowAndPhase --> EfficientMotorOp["More Efficient Motor Operation 💪"];
-    Title7["Condenser in Armature Circuit (Patent 455,067)"]
+    FieldMagnets["Motor Field Magnets A<br>Coils B, C (energized by phased AC)"] --> InductiveAction["Inductive Action on Armature"]
+    InductiveAction --> ArmatureCoils_E["Armature D with Coils E"]
+    ArmatureCoils_E -- Terminals ConnectedTo --> Condenser_F["Condenser F"]
+    Condenser_F -- CounteractsSelfInduction --> ArmatureCoils_E
+    ArmatureCoils_E -- ImprovedCurrentFlowAndPhase --> EfficientMotorOp["More Efficient Motor Operation 💪"]
+    Title7["Condenser in Armature Circuit<br/>(Patent 455,067)"]
 ```
 
 *Citation: U.S. Patent No. 455,067 (N. Tesla, June 30, 1891), page 114, lines 34-50.*
@@ -762,13 +783,13 @@ config:
   }
 }%%
 flowchart TD
-    AC_Source["Alternating Current Source"] --> PrimaryCircuit["Primary Energizing Circuit (Coils on one set of poles)"];
-    PrimaryCircuit -- Induces --> SecondaryCircuit["Secondary Energizing Circuit (Coils on another set of poles)"];
-    SecondaryCircuit --> Condenser["Condenser Interposed in Secondary Circuit"];
-    Condenser -- CreatesPhaseShift --> SecondaryCurrent_PhaseShifted["Secondary Current (Phase Shifted)"];
-    PrimaryCircuit & SecondaryCurrent_PhaseShifted -- EnergizeMotor --> MotorRotation["Motor Rotation"];
-    Note2["Secondary circuit can be high-potential for economical condenser use."];
-    Title8["Condenser in Inductively Coupled Motor Circuit (Patent 464,666)"]
+    AC_Source["Alternating Current Source"] --> PrimaryCircuit["Primary Energizing Circuit<br/>(Coils on one set of poles)"]
+    PrimaryCircuit -- induces --> SecondaryCircuit["Secondary Energizing Circuit<br/>(Coils on another set of poles)"]
+    SecondaryCircuit --> Condenser["Condenser Interposed in Secondary Circuit"]
+    Condenser -- creates Phase Shift --> SecondaryCurrent_PhaseShifted["Secondary Current<br/>(Phase Shifted)"]
+    PrimaryCircuit & SecondaryCurrent_PhaseShifted -- energize motor --> MotorRotation["Motor Rotation"]
+    Note2["Secondary circuit can be high-potential for economical condenser use."]
+    Title8["Condenser in Inductively Coupled Motor Circuit<br/>(Patent 464,666)"]
 ```
 
 *Citation: U.S. Patent No. 464,666 (N. Tesla, Dec. 8, 1891), page 122, lines 49-68; page 123, lines 1-11.*
