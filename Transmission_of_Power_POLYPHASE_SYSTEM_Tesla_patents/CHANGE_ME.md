@@ -1,5 +1,5 @@
 ---
-created: 2025-06-17 05:31:26
+created: 2025-06-19 05:31:26
 author: Cong Le
 version: "1.0"
 license(s): MIT, CC BY-SA 4.0
@@ -47,9 +47,16 @@ copyright: Copyright (c) 2025 Cong Le. All Rights Reserved.
 
 ----
 
+<!-- 
+```mermaid
+%% Current Mermaid version
+info
+```  -->
+
+
 ```mermaid
 ---
-title: "❓...CongLeSolutionX....❓"
+title: "CongLeSolutionX"
 author: "Cong Le"
 version: "1.0"
 license(s): "MIT, CC BY-SA 4.0"
@@ -66,7 +73,7 @@ config:
       'primaryColor': '#fc82',
       'primaryTextColor': '#F8B229',
       'primaryBorderColor': '#27AE60',
-      'secondaryColor': '#5229',
+      'secondaryColor': '#81c784',
       'secondaryTextColor': '#6C3483',
       'lineColor': '#F8B229',
       'fontSize': '20px'
@@ -74,15 +81,16 @@ config:
   }
 }%%
 flowchart LR
-    My_Meme@{ img: "https://raw.githubusercontent.com/CongLeSolutionX/CongLeSolutionX/refs/heads/main/assets/images/My-meme-and-question-marks-open-book-old-characters-background.png", label: "..🙉..👀..📖..", pos: "b", w: 200, h: 150, constraint: "off" }
-   
-    Link_to_my_profile{{"<a href='https://github.com/CongLeSolutionX' target='_blank'>Click here if you care about my profile</a>"}}
+  My_Meme@{ img: "https://raw.githubusercontent.com/CongLeSolutionX/CongLeSolutionX/refs/heads/main/assets/images/My-meme-question-marks-light-bulb-brain.png", label: "Ăn uống gì chưa ngừi đẹp?", pos: "b", w: 200, h: 150, constraint: "off" }
 
-  Closing_quote@{ shape: braces, label: "..👀..<br/>'Unfortunately,<br/>no one can be told<br/> what the Matrix is.<br/>You have to see it<br/>for yourself'<br/>...📚..<br/>-<ins>Morpheus,<br/>a character from the movie The Matrix 1999</ins>"}
+  Closing_quote@{ shape: braces, label: "...❓curiosity❓<br/> led me to <br/> 🧠 consciousness 🤯..." }
 
-   Closing_quote ~~~ My_Meme
+  Closing_quote  ~~~ My_Meme
+    
+  Link_to_my_profile{{"<a href='https://github.com/CongLeSolutionX/CongLeSolutionX' target='_blank'>Click here if you care about my profile</a>"}}
 
-    My_Meme animatingEdge@--> Link_to_my_profile
+  Closing_quote ~~~ My_Meme
+  My_Meme animatingEdge@--> Link_to_my_profile
   
   animatingEdge@{ animate: true }
 
