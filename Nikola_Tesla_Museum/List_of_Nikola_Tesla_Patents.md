@@ -289,6 +289,19 @@ The timeline for the full list of Nikola Tesla's non-USA Patents is in [this doc
 
 The timeline for the full list of Nikola Tesla's Comprehensive Patents(both US and non-US) is in [this doc](../Nikola_Tesla_Museum/Nikola_Tesla_Comprehensive_Patents_both_US_and_nonUS_Timeline.md).
 
+[comment]: <> (This is the default syntax for default alerts in GitHub Flavored Markdown)
+[comment]: <> (> [!TIP])
+[comment]: <> (> Can the above timelines be used for exercises where useful information is extracted with a maximum of 3 prompts?)
+
+[comment]: <> (Below is some "hack" tip to display custom alerts in GitHub Flavored Markdown syntax)
+> :bowtie: **Twisted Tips:** Can the above timelines be used for exercises where useful information is extracted with a maximum of 3 prompts?
+
+[comment]: <> (This is a comment, it will not be included)
+[comment]: <> (in  the output file unless you use it in)
+[comment]: <> (a reference style link.)
+[//]: <> (This is also a comment.)
+[//]: # (This may be the most platform independent comment)
+[//]: <> (Source: https://stackoverflow.com/questions/4823468/comments-in-markdown)
 
 ---
 
