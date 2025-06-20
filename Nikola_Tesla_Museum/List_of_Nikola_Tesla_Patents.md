@@ -247,6 +247,7 @@ config:
   init: {
 	'fontFamily': 'Bradley Hand',
     'gantt': {
+			'useWidth': 900,
       'titleTopMargin': 25,
       'barHeight': 25,
       'barGap': 30,
