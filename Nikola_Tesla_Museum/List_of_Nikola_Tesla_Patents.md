@@ -289,6 +289,8 @@ The timeline for the full list of Nikola Tesla's non-USA Patents is in [this doc
 
 The timeline for the full list of Nikola Tesla's Comprehensive Patents(both US and non-US) is in [this doc](../Nikola_Tesla_Museum/Nikola_Tesla_Comprehensive_Patents_both_US_and_nonUS_Timeline.md).
 
+> [!TIP]
+> Can the above timelines be used for exercises where useful information is extracted with a maximum of 3 prompts?
 
 ---
 
