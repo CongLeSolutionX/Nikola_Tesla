@@ -294,7 +294,7 @@ The timeline for the full list of Nikola Tesla's Comprehensive Patents(both US a
 [comment]: <> (> Can the above timelines be used for exercises where useful information is extracted with a maximum of 3 prompts?)
 
 [comment]: <> (Below is some "hack" tip to display custom alerts in GitHub Flavored Markdown syntax)
-:bulb: **Tip:** Remember to appreciate the little things in life.
+> :bowtie: **Twisted Tips:** Can the above timelines be used for exercises where useful information is extracted with a maximum of 3 prompts?
 
 [comment]: <> (This is a comment, it will not be included)
 [comment]: <> (in  the output file unless you use it in)
