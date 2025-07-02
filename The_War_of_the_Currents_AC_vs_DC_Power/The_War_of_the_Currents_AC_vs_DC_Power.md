@@ -139,18 +139,6 @@ config:
     }
   }
 }%%
-flowchart LR
-    My_Meme@{ img: "https://raw.githubusercontent.com/CongLeSolutionX/CongLeSolutionX/refs/heads/main/assets/images/My-meme-and-question-marks-open-book-old-characters-background.png", label: "..🙉..👀..📖..", pos: "b", w: 200, h: 150, constraint: "off" }
-   
-    Link_to_my_profile{{"<a href='https://github.com/CongLeSolutionX' target='_blank'>Click here if you care about my profile</a>"}}
-
-  Closing_quote@{ shape: braces, label: "☠️👻☠️<br/>Given the disastrous results<br/> of past missteps<br/>👣🐾👣,<br/>why would we<br/> knowingly<br/> start down<br/> a similar destructive path <br/>💀🙅🏼‍♂️💀,<br/> even in varied contexts?<br/>🧟‍♂️👨🏼‍🔬👨🏼‍💻🧛🏼‍♂️🧑‍🏫👨🏼‍🎓🪫💡🧠🦿"}
-
-  Closing_quote ~~~ My_Meme
-
-  My_Meme animatingEdge@--> Link_to_my_profile
-  
-  animatingEdge@{ animate: true }
 
 ```
 
