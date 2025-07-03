@@ -26,19 +26,29 @@ copyright: Copyright (c) 2025 Cong Le. All Rights Reserved.
 # CHANGE_ME
 <details open>
 <summary>Click to show/hide the full disclaimer.</summary>
-   
+
 > <ins>📢 **Disclaimer** 🚨</ins>
 >
-> This document contains my personal notes on the topic,
+> This project is born from my fascination with blending digital art and artificial intelligence.</br>
+> It's where I document my academic explorations,</br>
+> share my findings with anyone interested,</br>
+> and maintain a personal vault of my creative and technical journey.</br>
+> I'm not sure the link for this repo being shared in the back by others,</br>
+> since I havent plan for any analytics for this project yet.</br>
+> ...and I'm actively looking for a job...</br>
+
+> This document contains my personal notes on the topic,</br>
 > compiled from publicly available documentation and various cited sources.
-> The materials are intended for educational purposes (<ins>sometimes, entertainment purposes</ins>), personal study, and reference.
+> 
+> The materials are intended for educational purposes (<ins>sometimes, entertainment purposes</ins>), personal study, and technical reference.
 > The content is dual-licensed:
 > 1. **MIT License:** Applies to all code implementations (Swift, Mermaid, and other programming languages).
 > 2. **Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0):** Applies to all non-code content, including text, explanations, diagrams, and illustrations.
 
+
 </details>
 
----
+----
 
 
 ## MAIN CONTENT - A Diagrammatic Guide 
@@ -78,7 +88,7 @@ flowchart LR
    
     Link_to_my_profile{{"<a href='https://github.com/CongLeSolutionX' target='_blank'>Click here if you care about my profile</a>"}}
 
-  Closing_quote@{ shape: braces, label: "..👀..<br/>'Unfortunately,<br/>no one can be told<br/> what the Matrix is.<br/>You have to see it<br/>for yourself'<br/>...📚..<br/>-<ins>Morpheus,<br/>a character from the movie The Matrix 1999</ins>"}
+  Closing_quote@{ shape: braces, label: "....."}
 
    Closing_quote ~~~ My_Meme
 
