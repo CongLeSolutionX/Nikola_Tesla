@@ -154,7 +154,7 @@ flowchart LR
    
     Link_to_my_profile{{"<a href='https://github.com/CongLeSolutionX' target='_blank'>Click here if you care about my profile</a>"}}
 
-  Closing_quote@{ shape: braces, label: "☠️👻☠️<br/>Given the disastrous results<br/> of past missteps<br/>👣🐾👣,<br/>why would we<br/> knowingly<br/> start down<br/> a similar destructive path <br/>💀🙅🏼‍♂️💀,<br/> even in varied contexts?<br/>🧟‍♂️👨🏼‍🔬👨🏼‍💻🧛🏼‍♂️🧑‍🏫👨🏼‍🎓🪫💡🧠🦿"}
+  Closing_quote@{ shape: braces, label: "..."}
 
   Closing_quote ~~~ My_Meme
 
